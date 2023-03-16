@@ -10,6 +10,7 @@ DROP TABLE IF EXISTS ingredient_amounts;
 DROP TABLE IF EXISTS cost;
 
 CREATE TABLE users (
+  -- a username specified by the user, must be unique
   user_id             VARCHAR(100),
   first_name          VARCHAR(100),
   last_name           VARCHAR(100),
@@ -18,7 +19,7 @@ CREATE TABLE users (
 );
 
 CREATE TABLE chefs (
-  user_id             VARCHAR(100),
+  user_id             VARCHAR(100) NOT NULL,
   -- a rating such as amateur, professional, homecook, ect.
   experience_level    VARCHAR(100),
   -- a chef's area of expertise, such as pasty chefs being experts in pastries
@@ -43,7 +44,7 @@ CREATE TABLE categories (
 );
 
 CREATE TABLE ingredient_amounts (
-  recipe_id         INT,
+  recipe_id         INT NOT NULL,
   ingredient_name   VARCHAR(100) NOT NULL,
   quantity          NUMERIC(5, 3) NOT NULL,
   -- unit may be null for items such as egg where the egg is a unit
@@ -54,20 +55,20 @@ CREATE TABLE ingredient_amounts (
 
 -- This is an extra feature that may or may not be implemented.
 CREATE TABLE ratings (
-  recipe_id         INT,
+  recipe_id         INT NOT NULL,
+  user_id           VARCHAR(100) NOT NULL,
   -- a rating out of 5
   stars             NUMERIC(5, 0) NOT NULL,
   rated_on          TIMESTAMP,
-  user_id           VARCHAR(100) NOT NULL,
   review            VARCHAR(1000),
-  PRIMARY KEY (recipe_id),
+  PRIMARY KEY (recipe_id, user_id),
   FOREIGN KEY (recipe_id) REFERENCES recipes,
   FOREIGN KEY (user_id) REFERENCES users
 );
 
 -- This is an extra feature that may or may not be implemented.
 CREATE TABLE cost (
-  ingredient_name   INT,
+  ingredient_name   INT NOT NULL,
   quantity          NUMERIC(5, 3) NOT NULL,
   -- in dollars
   price             NUMERIC(5, 2) NOT NULL,
