@@ -395,7 +395,7 @@ recipe_id,ingredient_name,quantity,unit
 45,margarine,0.75,cup
 45,sugar,0.5,cup
 45,fruit jello,3,oz. pkg.
-45,,2,egg
+45,egg,2,
 45,vanilla,1,tsp.
 45,flour,2.5,cups
 45,baking powder,1,tsp.
@@ -403,7 +403,7 @@ recipe_id,ingredient_name,quantity,unit
 45,flour,1,cup
 45,margarine,0.5,cup
 45,powdered sugar,0.25,cup
-45,,2,egg
+45,egg,2,
 45,sugar,1,cup
 45,baking powder,0.5,tsp
 45,salt,0.25,tsp
@@ -437,7 +437,6 @@ recipe_id,ingredient_name,quantity,unit
 48,salt,0.5,tsp
 48,quick-cooking oats,2,cups
 48,"walnuts, chopped",0.5,cup
-48,,1,tsp
 49,semi-sweet chocolate chips,1,6 oz. pkg.
 49,butter or margarine,1,Tbps.
 49,sweetened condensed milk,0.33,cup
@@ -595,7 +594,7 @@ recipe_id,ingredient_name,quantity,unit
 67,sugar,0.25,cup
 67,cornstarch,3,Tbsp
 67,butter,2,tsp
-67,salt,,dash
+67,salt,1,dash
 67,almond extract,0.25,tsp
 67,pie shell,1,9 inch
 68,peach or lemon gelatin,1,3 ounce box
@@ -1095,9 +1094,9 @@ recipe_id,ingredient_name,quantity,unit
 126,butter,2,tbsp
 126,flour,2,tbsp
 126,chicken bouillon,1,tsp
-126,nutmeg,,dash
-126,red pepper,,dash
-126,white pepper,,dash
+126,nutmeg,1,dash
+126,red pepper,1,dash
+126,white pepper,1,dash
 126,milk,1,cup
 126,shredded Swiss or cheddar cheese,0.66,cup
 126,"spinach, thawed and well-drained",1,pkg
@@ -1536,8 +1535,8 @@ recipe_id,ingredient_name,quantity,unit
 170,Louisiana-style hot sauce,2,tbsp
 170,melted butter or margarine,2,tbsp
 170,h1y,1.5,tsp
-170,garlic powder,,dash
-170,ground ginger,,dash
+170,garlic powder,1,dash
+170,ground ginger,1,dash
 171,turkey breast 10derloins,1,pkg
 171,butter,1,tbsp
 171,"onion, sliced into rings",1,medium
@@ -1809,7 +1808,7 @@ recipe_id,ingredient_name,quantity,unit
 203,"butter or margarine, melted",0.5,cups
 203,flour,0.75,cups
 203,baking powder,2,teaspoons
-203,salt,,pinch
+203,salt,1,pinch
 203,milk,0.75,cups
 204,sugar,0.5,cups
 204,knox gelatin,1,envelope
