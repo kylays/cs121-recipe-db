@@ -1,0 +1,2087 @@
+recipe_id,ingredient_name,quantity,unit
+1,shortening,0.5,cup
+1,sugar,1.5,cups
+1,egg,2,
+1,salt,1,pinch
+1,sour milk,0.5,cup
+1,soda water,1,tsp
+1,flour,1.75,cups
+1,baking powder,1.5,tsp
+1,chopped nuts,0.5,cup
+2,cream cheese,12,ounces
+2,sugar,1.5,cups
+2,egg,3,
+2,lemon juice,1,tbps
+2,vanilla,3,tsp
+2,butter,0.25,cup
+2,flour,4,cups
+2,baking powder,1,tbsp
+2,milk,1,cup
+2,blueberries,3,cups
+3,margarine,0.5,cup
+3,sugar,2,cups
+3,egg,2,
+3,cocoa,5,tbsp
+3,salt,0.5,tsp
+3,sour milk,0.5,cup
+3,baking soda,2,tsp
+3,flour,2,cups
+3,clove,0.5,tsp
+3,vanilla,1,tsp
+4,flour,3,cups
+4,sugar,1.5,cups
+4,cocoa,0.33,cup
+4,baking powder,2.25,tsp
+4,baking soda,1.5,tsp
+4,Best Foods Mayonnaise,1.5,cups
+4,water,1.5,cups
+4,vanilla,1.5,tsp
+5,lemon cake mix,1,box
+5,water,0.75,cup
+5,lemon jello,1,small pkg
+5,vegetable oil,0.75,cup
+5,egg,4,
+5,powdered sugar,2,cups
+5,lemon juice,0.5,cups
+6,diced apples,4,cups
+6,sugar,2,cups
+6,chopped nuts,1,cups
+6,"egg, well beaten",2,
+6,vanilla,2,tsp
+6,flour,2,cups
+6,baking powder,2,tsp
+6,cinnamon,2,tsp
+6,vegetable oil,0.5,cups
+6,baking soda,1,tsp
+6,salt,1,tsp
+7,butter,2,tbps
+7,flour,1.5,cups
+7,pears,3,
+7,egg,2,
+7,sugar,1,cup
+7,milk,0.5,cup
+7,salt,0.125,tsp
+7,powdered sugar,1,sprinkle
+8,butter,0.5,cup
+8,sugar,1,cup
+8,sour milk,1,cup
+8,"graham crackers, crushed",32,
+8,baking soda,1,tsp
+8,chopped nuts,1,cup
+9,margarine,0.5,cup
+9,sugar,2,cups
+9,egg,2,
+9,cocoa,5,tbsp
+9,salt,0.5,tsp
+9,sour milk,0.5,cup
+9,baking soda,2,tsp
+9,flour,2,cup
+9,clove,0.5,tsp
+9,vanilla,1,tsp
+10,"wheat germ, optional",0.25,cup
+10,graham cracker crumbs,1.75,cup
+10,sugar,3,tbsp
+10,cinnamon,1,tsp
+10,melted butter,0.33,cup
+10,sour cream,0.5,pint
+10,sugar,0.33,cup
+10,vanilla,1,tsp
+10,salt,0.125,tsp
+10,cream cheese,8,ounces
+10,cottage cheese,0.5,pint
+10,egg,4,
+10,lemon juice,1,tbsp
+10,vanilla,2,tsp
+10,sugar,0.66,cup
+10,flour,2,tbsp
+10,salt,0.25,tsp
+11,lemon cake mix,1,pkg
+11,egg,4,
+11,lemon instant pudding,1,small pkg
+11,water,1,cup
+11,oil,0.5,cup
+11,poppy seeds,0.25,cup
+12,sifted flour,4,cups
+12,baking powder,0.5,tsp
+12,salt,1.5,tsp
+12,cinnamon,1.5,tsp
+12,nutmeg,1,tsp
+12,whole pecans,24,ounces
+12,"canned pineapple, chopped",1.75,cups
+12,whole canned cherries,1.75,cups
+12,golden raisins,3.25,cups
+12,butter,1,cup
+12,sugar,2.25,cups
+12,egg,6,
+12,brandy flavoring,3,tbsp
+13,sugar,0.5,cup
+13,butter,0.5,cup
+13,egg,1,
+13,molasses,1,cup
+13,sifted flour,2.5,cups
+13,soda,1.5,tsp
+13,cinnamon,1,tsp
+13,ginger,1,tsp
+13,clove,0.5,tsp
+13,salt,0.5,tsp
+13,hot water,1,cup
+14,oatmeal,1,cup
+14,boiling water,1.25,cups
+14,brown sugar,1,cup
+14,white sugar,1,cup
+14,margarine,0.5,cup
+14,egg,2,
+14,flour,1.33,cups
+14,salt,0.5,tsp
+14,soda,1,tsp
+14,nutmeg,1,tsp
+14,cinnamon,1,tsp
+14,chopped nuts,1,cup
+14,evaporated milk,0.5,cup
+14,butter,6,tbsp
+14,coconut,1,cup
+14,valencia peanuts,1,tsp
+15,angel food cake mix,1,15-16 ounce pkg
+15,"frozen orange juice concentrate, thawed",0.75,cup
+15,"frozen light whipped topping, thawed",1,container
+15,plain low fat yogurt,0.5,cup
+16,"unsalted butter, softened",1,cup
+16,sugar,1,cup
+16,vanilla,2,tsp
+16,grated orange peel,2,tsp
+16,unsifted cake flour,2.25,cups
+16,fresh orange juice,0.5,cup
+16,egg,4,large
+16,baking powder,0.75,tsp
+16,baking soda,0.25,tsp
+16,salt,0.25,tsp
+16,poppy seeds,2,tbsp
+16,powdered sugar,0.5,cup
+16,fresh orange juice,2.5,tsp
+17,crushed pineapple,1,2 pound can
+17,yellow cake mix,1,pkg
+17,butter,1,cube
+17,sliced almonds,1,pkg
+18,oil,1,cup
+18,sugar,2,cups
+18,egg,4,
+18,flour,2,cups
+18,soda,1,tsp
+18,salt,0.5,tsp
+18,cinnamon,1,tsp
+18,vanilla,1,tsp
+18,"crushed pineapple, drained",1,cup
+18,grated carrots,2,cups
+18,chopped walnuts,1,cup
+19,cream cheese,3,ounces
+19,margarine,0.25,pound
+19,powdered sugar,2,cups
+19,vanilla,1,tsp
+19,water,2,Tbsp
+20,sugar,2,cups
+20,shortening,1,cup
+20,milk,0.5,cup
+20,mashed potatoes,1,cup
+20,"egg, beaten separately",4,
+20,flour,2,cups
+20,baking powder,2,tsp
+20,cocoa,2,tsp
+20,chopped walnuts,1,cup
+20,vanilla,1,tsp
+21,vanilla wafer crumbs,2,cups
+21,melted margarine,0.25,cups
+21,lite cream cheese,2,8 oz. pkgs.
+21,sugar,0.75,cups
+21,vanilla,1,tsp
+21,egg,3,
+21,pumpkin,1,cup
+21,cinnamon,0.75,tsp
+21,nutmeg,0.25,tsp
+22,cornflakes,4,cups
+22,butter,0.33,cup
+22,sugar,0.25,cup
+22,gelatin,1.5,tbsp
+22,cold water,0.5,cup
+22,"egg, separated",2,
+22,salt,0.5,tsp
+22,milk,0.5,cup
+22,cottage cheese,1,pound
+22,grated lemon rind,1,tsp
+22,lemon juice,0.25,cup
+22,heavy cream,0.5,cup
+23,yellow cake mix,1,pkg
+23,instant vanilla pudding,1,pkg
+23,egg,4,
+23,oil,0.75,cup
+23,sherry cooking wine,0.75,cup
+23,nutmeg,1,tsp
+24,egg,3,
+24,oil,1,cup
+24,sugar,1.5,cups
+24,"nutmeg, cinnamon, and allspice",1,tsp. each
+24,flour,2,cups
+24,salt,0.25,tsp
+24,soda,1,tsp
+24,baking powder,0.5,tsp
+24,buttermilk,1,cup
+24,vanilla,1,tsp
+24,cooked prunes,1,cup
+24,chopped nuts,0.5,cup
+25,sugar,1,cup
+25,buttermilk,0.5,cup
+25,soda water,0.5,tsp
+25,white corn syrup,1,tbsp
+25,butter,0.25,cup
+25,vanilla,1,tsp
+26,chopped pitted prunes,1,cup
+26,walnuts,1,cup
+26,flour,2,cups
+26,baking soda,1,tsp
+26,cinnamon,1.5,tsps
+26,nutmeg,1.5,tsps
+26,allspice,1,tsp
+26,salt,0.25,tsp
+26,vegetable oil,1,cup
+26,buttermilk,1,cup
+26,egg,3,
+27,sugar,0.5,cup
+27,buttermilk,0.5,cup
+27,soda,0.5,tsp
+27,unsalted butter,0.25,cup
+28,berries,3,cups
+28,flour,3,cups
+28,sugar,2,cups
+28,salt,1,tsp
+28,cinnamon,3,tsps
+28,nutmeg,1,tsp
+28,soda water,1,tsp
+28,oil,1.25,cups
+28,egg,4,
+29,flour,4.5,cups
+29,sugar,2.25,cups
+29,cocoa,0.5,cups
+29,baking powder,3.5,tsps
+29,baking soda,2.25,tsps
+29,Best Foods Mayonnaise,2.25,cups
+29,water,2.25,cups
+29,vanilla,2.25,tsps
+30,flour,3,cups
+30,sugar,1.5,cups
+30,cocoa,0.33,cup
+30,baking powder,2.25,tsps
+30,baking soda,1.5,tsps
+30,Best Foods Mayonnaise,1.5,cups
+30,water,1.5,cups
+30,vanilla,1.5,tsps
+31,butter,0.33,cup
+31,brown sugar,0.5,cup
+31,egg,2,
+31,sugar,0.66,cup
+31,fruit juice,6,tbsp
+31,vanilla,1,tsp
+31,sifted flour,1,cup
+31,baking powder,0.33,tsp
+31,salt,0.25,tsp
+32,cold butter,0.5,cup
+32,sugar,0.5,cup
+32,brown sugar,0.5,cup
+32,vanilla,1,tsp
+32,egg,1,
+32,flour,1.5,cups
+32,baking soda,0.5,tsp
+32,salt,0.5,tsp
+32,chocolate chips,1,package
+32,walnuts,0.5,cups
+33,semisweet chocolate chips,1,cup
+33,light corn syrup,3,tbsp
+33,bourbon (or light cream),0.5,cup
+33,crushed vanilla wafers,2.5,cups
+33,powdered sugar,0.5,cup
+33,finely chopped walnuts,1,cup
+34,flour,2,cups
+34,baking soda,0.5,tsp
+34,salt,0.5,tsp
+34,margarine,1,cup
+34,sugar,1.5,cups
+34,egg,2,
+34,vanilla,1,tsp
+34,All-Bran cereal,1,cup
+34,chocolate chips,1,cup
+35,flour,3,cups
+35,brown sugar,1.25,cups
+35,margarine,0.5,cup
+35,crunchy peanut butter,0.33,cup
+35,salt,0.25,tsp
+35,"egg yolk, beaten",1,
+35,vanilla,1,tsp
+35,chocolate chips,1,cup
+35,crunchy peanut butter,0.5,cup
+35,Special K cereal,1.5,cups
+36,margarine,0.25,cup
+36,sifted flour,1,cup
+36,salt,0.25,tsp
+36,"egg, well beaten",2,
+36,light brown sugar,0.75,cup
+36,coconut,0.5,cup
+36,vanilla,1,tsp
+36,flour,2,tbsp
+37,semisweet chocolate chips,1,cup
+37,light corn syrup,0.25,cup
+37,water,1,tbsp
+37,chopped nuts,1,handful
+38,crushed walnuts,8,ounces
+38,pitted dates,1,cup
+38,flake coconut,2.5,cups
+38,brown sugar,1,cup
+38,egg,2,
+39,butter,0.75,cup
+39,vanilla,1,tsp
+39,water,1,tbsp
+39,salt,0.125,tsp
+39,sugar,0.33,cup
+39,flour,2,cups
+39,chocolate chips,6,oz.
+39,finely chopped walnuts,1,cup
+39,powdered sugar,1,sprinkle
+40,butter or margarine,1,cup
+40,sugar,1.5,cups
+40,egg,1,
+40,flour,2,cups
+40,soda,2,tsps
+40,raisins (or finely diced prunes or dates),2,cups
+40,rolled oats,1.25,cups
+41,sifted flour,1.5,cups
+41,salt,0.5,tsp
+41,baking soda,1,tsp
+41,shortening,0.5,cups
+41,granulated sugar,1,cup
+41,egg,2,
+41,vanilla,0.5,tsp
+41,brown sugar,1,cup
+41,"egg white, stiffly beaten",1,
+41,chopped nuts,1,cup
+42,brown sugar,1,cup
+42,egg,1,
+42,margarine,2,tbsp
+42,molasses,0.25,cup
+42,vanilla,1,tsp
+42,flour,1,cup
+42,soda,0.5,tsp
+42,salt,0.5,tsp
+42,cinnamon,0.5,tsp
+42,ginger,0.5,tsp
+42,clove,0.25,tsp
+42,milk,0.5,cup
+42,chopped nuts,1,cup
+43,shortening,0.75,cup
+43,brown sugar,1,cup
+43,egg,1,
+43,molasses,0.25,cup
+43,ginger,1,tsp
+43,cinnamon,1,tsp
+43,clove,0.5,tsp
+43,soda,2,tsp
+43,flour,2,cups
+44,flour,2,cups
+44,whole wheat flour,0.5,cup
+44,brown sugar,0.33,cup
+44,shortening,0.5,cup
+44,cinnamon,0.5,tsp
+44,honey,0.25,cup
+44,oil,0.25,cup
+44,cold water,3,tbsp
+44,salt,1,tsp
+44,baking soda,1,tsp
+45,margarine,0.75,cup
+45,sugar,0.5,cup
+45,fruit jello,3,oz. pkg.
+45,,2,egg
+45,vanilla,1,tsp.
+45,flour,2.5,cups
+45,baking powder,1,tsp.
+45,salt,1,tsp.
+45,flour,1,cup
+45,margarine,0.5,cup
+45,powdered sugar,0.25,cup
+45,,2,egg
+45,sugar,1,cup
+45,baking powder,0.5,tsp
+45,salt,0.25,tsp
+45,lemon peel,2,Tbsp
+45,Lemon juice,2,Tbsp
+46,egg,1,
+46,oil,0.66,cup
+46,sugar,0.5,cup
+46,mint apple jelly,0.75,cup
+46,flour,1.5,cups
+46,baking powder,1.5,tsp
+46,salt,1,tsp
+47,brown sugar,1.25,cups
+47,shortening,1,scant cup
+47,egg,2,
+47,raisin liquid,5,tsp
+47,"soda, dissolved in raisin liquid",1,tsp
+47,flour,2.5,cups
+47,oats,2,cups
+47,salt,1,pinch
+47,"raisins, boiled 20 min.",1,cup
+47,cinnamon,1,tsp
+47,all-spice,1,tsp
+47,walnuts,1,cup
+48,shortening,0.5,cup
+48,"light brown sugar, firmly packed",1,cup
+48,egg,1,
+48,vanilla,0.5,tsp
+48,sifted flour,0.75,cup
+48,baking soda,0.5,tsp
+48,salt,0.5,tsp
+48,quick-cooking oats,2,cups
+48,"walnuts, chopped",0.5,cup
+48,,1,tsp
+49,semi-sweet chocolate chips,1,6 oz. pkg.
+49,butter or margarine,1,Tbps.
+49,sweetened condensed milk,0.33,cup
+49,salt,0.25,tsp
+49,"walnuts, chopped",0.5,cup
+49,vanilla,1,tsp
+50,sugar,1.25,cups
+50,brown sugar,1,cup
+50,margarine,1,cup
+50,egg,2,
+50,peanut butter,1,cup
+50,flour,3,cups
+50,soda,1,tsp
+50,salt,0.5,tsp
+50,vanilla,1,tsp
+51,butter or margarine,0.25,cup
+51,"light brown sugar, firmly packed",0.5,cup
+51,egg,1,
+51,sifted flour,0.5,cup
+51,graham cracker crumbs,0.5,cup
+51,"crushed pineapple, drained.",1,8 1/2 oz. can
+51,"walnuts, chopped",0.5,cup
+52,pitted prunes,1.5,cups
+52,margarine,0.5,cup
+52,sugar,0.25,cup
+52,sifted flour,1.33,cups
+52,baking powder,0.5,tsp
+52,salt,0.25,tsp
+52,brown sugar,1,cup
+52,egg,2,
+52,lemon juice,2,tsp
+52,vanilla,1,tsp
+52,"walnuts, chopped",1,cup
+52,coconut,0.5,cup
+52,confectioner's sugar,1,sprinkle
+53,egg,4,
+53,sugar,3,cups
+53,oil,1,cup
+53,oatmeal,3,cups
+53,soda,2,tsp
+53,salt,1,tsp
+53,nuts,1,cup
+53,raisins,1,cup
+53,allspice,0.5,tsp
+53,ginger,0.75,tsp
+53,pumpkin pie spice,1,tsp
+53,cinnamon,1,tsp
+53,clove,1,tsp
+53,nutmeg,1,tsp
+53,pumpkin pie spice,1,small can
+53,flour,4,cups
+54,flour,2.75,cups
+54,cream of tartar,2,tsp
+54,baking soda,1,tsp
+54,salt,0.5,tsp
+54,margarine,0.75,cups
+54,sugar,1.5,cups
+54,egg,2,
+54,sugar,2,Tbps
+54,cinnamon,1,tsp
+55,butter or margarine,0.5,cup
+55,sugar,1.5,cups
+55,egg,2,
+55,vanilla,1,tsp
+55,sifted flour,3,cups
+55,salt,1,tsp
+55,baking powder,0.5,tsp
+55,baking soda,0.5,tsp
+55,sour cream,1,cups
+55,cinnamon and sugar,1,pinch
+56,Crisco (shortening),0.5,cup
+56,egg,1,
+56,sugar,2,cups
+56,salt,0.5,tsp
+56,vanilla,1,tsp
+56,flour,1.66,cups
+57,margarine,1,cup
+57,sugar,1,cup
+57,egg,1,
+57,flour,2,cups
+57,nutmeg,0.33,tsp
+57,"nuts, chopped",1,cups
+58,baked pastry shell,1,
+58,cornstarch,3,Tbsp
+58,water,1.66,cups
+58,sweetened condensed milk,1,14 oz can
+58,"egg yolks, beaten",3,
+58,margarine or butter,2,Tbsp
+58,vanilla,1,tsp
+58,bananas,3,medium
+58,lemon juice from concentrate,1,squeeze
+58,whipped cream,1,dollop
+59,blackberries,2,cups
+59,sugar,0.75,cups
+59,cornstarch,2,Tbsp
+59,water,1,cup
+59,"nectarines, sliced",2.5,cups
+59,baked pie shell,1,
+59,whipped cream,1,dollop
+60,"9 inch pie shell, unbaked",1,
+60,"tart apples, peeled and sliced",5,
+60,sugar,1,cup
+60,flour,0.25,cup
+60,salt,0.5,tsp
+60,heavy cream,1,cup
+60,cinnamon,1,pinch
+61,"large apples, sliced",4,
+61,sugar,1,cup
+61,cinnamon,1,tsp
+61,flour,0.75,cup
+61,butter,0.33,cup
+61,cinnamon,0.5,tsp
+62,cornstarch,2,Tbsp
+62,sugar,1,cup
+62,water,1.25,cups
+62,red food coloring,3,drops
+62,butter,1,Tbsp
+62,lemon juice,1,tsp
+62,strawberries,1,basket
+62,"pie shell, baked",1,
+63,sugar,1,cup
+63,cornstarch,0.5,cup
+63,water,1,cup
+63,"lemon rind, grated",1,tsp
+63,lemon juice,0.33,cup
+63,egg,2,
+63,cream cheese,4,ounces
+63,graham cracker crust,1,
+64,sugar,1,cup
+64,cornstarch,3,Tbsp
+64,butter,0.25,cup
+64,"lemon rind, grated",1,Tbsp
+64,lemon juice,0.25,cup
+64,"egg yolks, slightly beaten",3,
+64,milk,1,cup
+64,sour cream,1,cup
+64,pie shell,1,"8"""
+65,sugar,1,cup
+65,cornstarch,4,Tbsp
+65,salt,0.5,tsp
+65,hot water,2,cups
+65,"lemon juice, fresh or bottled",0.33,cup
+65,grated lemon juice,1,tsp
+65,egg yolks,3,
+65,butter,1,Tbsp
+65,egg whites,3,
+65,sugar,0.25,cup
+66,sliced,5,apples
+66,sugar,1,cup
+66,cinnamon,0.25,tsp
+66,water,0.5,cup
+66,butter,1,Tbsp
+67,"fresh peaches, sliced",2,cups
+67,lemon juice,1,Tbsp
+67,sugar,0.25,cup
+67,cornstarch,3,Tbsp
+67,butter,2,tsp
+67,salt,,dash
+67,almond extract,0.25,tsp
+67,pie shell,1,9 inch
+68,peach or lemon gelatin,1,3 ounce box
+68,hot water,1.25,cups
+68,Peach or vanilla ice cream,1,pint
+68,"fresh peaches, peeled and diced",2,
+68,sugar,0.25,cup
+68,"baked pie shell, chilled",1,
+68,heavy cream,0.5,cup
+69,"graham cracker crumbs, 18 squares",1.5,cups
+69,sugar,0.25,cup
+69,"margarine, melted",0.5,cup
+69,whipped cream or cool whip,0.5,cup
+69,vanilla ice cream,1,quart
+69,chunk style peanut buter,0.5,cup
+70,light or dark corn syrup,1,cup
+70,sugar,1,cup
+70,"egg, slightly beaten",3,
+70,vanilla,0.5,tsp
+70,chunk style peanut butter,0.33,cup
+70,"pie shell, unbaked",1,
+70,whipped cream,1,cup
+71,sifted flour,2,cups
+71,salt,0.5,tsp
+71,shortening,0.66,cup
+71,ice water or 7-up,5,Tbsp
+72,raisins,1.5,cups
+72,water,1.5,cups
+72,flour,1.5,Tbsp
+72,sugar,0.75,cup
+72,"egg yolks, slightly beaten",3,
+72,sour cream,1,cup
+72,vanilla,1,tsp
+72,nutmeg,0.5,tsp
+73,sugar,0.75,cup
+73,light corn syrup,0.75,cup
+73,egg,3,
+73,evaporated milk,1,cup
+73,vanilla,1,tsp
+73,flour,2,Tbsp
+73,nutmeg,0.25,tsp
+74,sugar,0.75,cup
+74,egg,3,
+74,"walnuts, chopped",1,cup
+74,butter,0.5,cup
+74,vanilla,1,tsp
+74,raisins,1,cup
+75,cornstarch,2,Tbsp
+75,sugar,0.25,cup
+75,pineapple juice,1,cup
+75,egg,2,
+75,Dream Whip or whipped cream,1,cup
+75,pineapple tidbits,2.5,cups
+75,"walnuts, chopped",0.25,cup
+75,marshmallows,0.25,pound
+75,"bananas, sliced",2,
+76,blue cheese,6,ounces
+76,buttermilk,1,cup
+76,mayonnaise,1,quart
+76,white sauterne wine,1.5,ounces
+76,garlic powder,1,dash
+76,accent seasoning mix,1,dash
+77,"broccoli, cut into small pieces",4,cups
+77,raisins,0.5,cup
+77,red onion,1,
+77,sunflower seed,1,cup
+77,mayonnaise,1,cup
+77,stalks of celery,2,
+77,red wine vinegar,1,Tbsp
+77,curry block,1,
+78,"broccoli florets, bite size",2,heads
+78,"mozzarella cheese, shredded",8,ounce
+78,"red onion, chopped",1,small
+78,"crisp bacon, crumbled",4,strips
+78,mayonnaise,1,cup
+78,sugar,0.33,cup
+78,vinegar,2,Tbsp
+79,"bacon, but small, fry until crisp",5,strips
+79,broccoli,1,bunch
+79,"crushed pineapple, well drained",1,16 oz. can
+79,"red onion, chopped fine",1,
+79,sunflower seeds,0.5,cup
+79,mayonnaise,1,cup
+79,sugar,1,Tbsp
+79,vinegar,2,Tbsp
+80,Knox Unflavored Gelatin,2,envelopes
+80,"cold orange juice, divided",1.5,cups
+80,boiling orange juice,0.5,cup
+80,salt,0.25,tsp
+80,salad dressing,1,cup
+80,carrot pieces,1.5,cups
+80,crushed pineapple,1,13.4 oz. can
+81,cabbage,0.5,head
+81,mayonnaise,0.25,cup
+81,sour cream,0.5,cup
+81,vinegar,1,Tbsp
+81,sugar,1,Tbsp
+81,horseradish,0.5,tsp
+81,salt and pepper,1,pinch
+81,caraway seed (optional),1,tsp
+82,hot water,2,cups
+82,"cherry jello, or 1 large",2,packages
+82,whole cranberry sauce,1,can
+82,sour cream,1,pint
+82,"nuts, chopped",0.5,cup
+83,"cucumbers, sliced",3,cups
+83,salt,1.5,tsp
+83,pepper,0.125,tsp
+83,"chives or scallions, minced",3,Tbsp
+83,sour cream,1,cup
+83,lemon juice,2,Tbsp
+84,green beans,1,can
+84,wax beans,1,can
+84,kidney beans,1,can
+84,garbanzo beans,1,can
+84,bean sprouts,1,can
+84,"red onion, sliced",1,
+84,sugar,0.5,cup
+84,vinegar,0.5,cup
+84,oil,0.5,cup
+85,pineapple chunks,1,cup
+85,mandarin oranges,1,cup
+85,coconut,1,cup
+85,marshmallows,1,cup
+85,sour cream,1,cup
+86,asparagus,8,
+86,broccoli,1,
+86,cauliflower,1,
+86,green onions,2,
+86,radishes,3,
+86,peeled tomato,1,
+86,avacado,1,
+86,fresh mushrooms,5,
+86,pasta,1,lb
+86,Italian Dressing,1,drizzle
+87,fresh beans,1,pound
+87,salad oil,0.75,cup
+87,white vinegar,1,cup
+87,"red onion, chopped",0.5,cup
+87,grated lemon rind,2,tsp
+87,blue cheese,1,sprinkle
+87,"walnuts, chopped",15,
+88,lemon jello,1,small package
+88,pineapple juice + water,1,cup
+88,crushed pineapple,1,cup
+88,cream cheese,8,oz
+88,"walnuts, chopped",1,cup
+88,whipped cream,1,pint
+89,horseradish,0.5,cup
+89,mayonnaise,4,cups
+89,sour cream,1,cup
+89,buttermilk,0.75,cup
+89,oil,0.5,cup
+89,onion powder,1,tsp
+89,salt,1,tsp
+89,pepper,0.5,tsp
+89,kelp,0.75,tsp
+89,vinegar,0.25,cup
+90,lemon jello,1,large package
+90,mandarin oranges,1,can
+90,pineapple tidbits,1,med. can
+90,"bananas, sliced",2,
+90,Dream Whip,2,cups
+91,frozen lima beans,1,10z. pkg.
+91,"fresh mushrooms, sliced",8,
+91,"green onions, sliced",4,
+91,"parsley, choped",1,Tbsp
+91,oregano,0.5,tsp
+91,vegetable oil,1,Tbsp
+91,salt,0.75,tsp
+91,pepper,1,dash
+91,"garlic, crushed",1,clove
+92,"frozen peas, uncooked",1,bag
+92,"green onion, chopped",1,cup
+92,crumbled bacon bits,0.5,cup
+92,"water chestnuts, sliced",1,can
+92,salted cashew pieces.,1,cup
+92,sour cream,1,small carton
+93,oil,1,cup
+93,vinegar,0.5,cup
+93,salt and pepper,1,pinch
+93,dry mustard,0.25,tsp
+93,paprika,1,tsp
+93,sugar,0.5,cup
+94,spinach leaves,0.5,pound
+94,"onion, red is best",1,medium
+94,bacon,2,slices
+94,vinegar,0.66,cup
+94,water,0.5,cup
+94,sugar,1,Tbsp
+94,salt,1,tsp
+94,"egg, slightly beaten",1,
+94,"egg, hard-boiled",1,
+94,sour cream,2,Tbsp
+95,fresh spinach,1,pound
+95,avocado,1,
+95,lemon juice,1,Tbsp
+95,red onion,1,
+95,mandarin oranges,1,can
+95,sour cream,2,Tbsp
+95,"garlic, crushed",1,clove
+95,salt,0.25,tsp
+95,lemon peel,0.5,tsp
+95,paprika,0.5,tsp
+95,pepper,0.25,tsp
+95,vinegar,2,Tbsp
+95,olive oil,0.5,cup
+95,"bacon, crisp and crumbled",6,slices
+96,spinach greens,1,handful
+96,sliced onion,1,
+96,alfalfa sprouts,1,cup
+96,bacon bits,1,sprinkle
+96,grated jack cheese,0.5,cup
+96,sunflower seeds,0.25,cup
+96,mayonnaise,1,tbsp
+96,catsup,1,
+96,lemon juice,1,squeeze
+96,sugar,1,tsp
+97,pineapple chunks in juice,1,can
+97,mandarin oranges,1,can
+97,seedless grapes,1,can
+97,"cantaloupe, cut into chunks",0.5,
+97,watermelon chunks,2,cups
+97,marshmallows,2,cups
+97,sour cream,1,pint
+98,chicken Ramen,1,pkg.
+98,oil,0.25,cup
+98,vinegar,0.25,cup
+98,sugar,0.25,cup
+98,salad greens,1,handful
+98,red onion,1,
+99,frozen peas,1,cup
+99,mayonnaise,0.5,cup
+99,vinegar,3,Tbsp
+99,sugar,1,cup
+99,caraway seed,1,tsp
+99,"zucchini, coarsely shredded",4,cups
+99,"green onions, sliced",0.5,cup
+99,"tart apples, cut in chunks",3,
+99,salt and pepper,1,pinch
+100,"potato (2-3 cups), peeled and diced",1,large
+100,"broccoli florets, cut or broken",2,cups
+100,"carrot, peeled and chopped",1,medium
+100,"clove of garlic, peeled",3,medium
+100,"onion, chopped",1.5,cups
+100,salt,1.5,tsp
+100,water,4,cups
+100,"cheddar cheese, grated",2,cups
+100,low-fat milk,0.75,cups
+100,dill,1,tsp
+101,"chicken, cooked and chopped",2,cups
+101,"potato, diced",1,large
+101,"carrots, diced",3,large
+101,"celery, sliced",2,stalks
+101,"onion, chopped",1,large
+101,chicken bouillion,2,cubes
+101,poultry seasoning,1,dash
+101,salt,1,pinch
+101,narrow egg noodles,1,large handful
+102,"bacon, chopped and browned",0.5,pound
+102,"onion, suated",1,large
+102,"celery, sauted",3,stocks
+102,"potatoes, peeled and diced",2,cups
+102,half and half,1,pint
+102,milk,1,quart
+102,salt and pepper,1,pinch
+102,thyme or basil,1,pinch
+102,chopped clams with juice,4,cans
+103,"zucchini, thinly sliced (about 3/4 lb.)",3,cups
+103,"onion, chopped",0.25,cups
+103,"garlic, minced",3,clove
+103,butter or margarine,1,Tbsp
+103,"cream of mushroom soup, condensed",1,10 oz. can
+103,water,1.5,cups
+103,milk,0.5,cup
+103,"fresh oregano, chopped or 1/4 tsp dried",0.5,tsp
+103,"fresh basil, or 1/4 tsp dried",1.5,tsp
+103,sour cream,0.5,cup
+103,ground pepper,1,pinch
+103,"pine nuts, toasted",0.5,cup
+104,elephant,1,medium
+104,salt and pepper to taste,1,pinch
+104,brown gravy,1,drizzle
+104,rabbits,2,
+105,hamburger,1,pound
+105,"potatoes, diced",2,large
+105,"carrots, diced",4,large
+105,"onion, coarsely chopped",1,large
+105,"celery, sliced",2,stalks
+105,"stewed tomatoes, crushed",1,large can
+105,"tomatoes, crushed",1,small can
+105,cabbage,0.5,head
+105,salt,1,pinch
+106,hamburger,1,pound
+106,minute rice,0.25,cup
+106,egg,1,
+106,"onion, finely chopped",0.25,cup
+106,garlic powder,0.5,tsp
+106,oregano,0.5,tsp
+106,cumin,0.5,tsp
+106,chili powder,1,tsp
+106,chicken or beef broth,4,cups
+106,"tomatoes, crushed",2,cups
+106,"carrots, chopped",1,cup
+106,"onion, chopped",1,
+106,"celery, chopped",1,cup
+106,garlic powder,1,tsp
+106,oregano,1,tsp
+106,cumin,1,tsp
+106,chili powder,1,Tbsp
+106,tomato sauce,1,cup
+106,instant rice,0.5,cup
+107,hamburger,1,pound
+107,"potatoes, cubed",4,
+107,"onion, chopped",1,large
+107,"carrots, diced",6,
+107,"stalks of celery, chopped",3,
+107,kidney beans,1,can
+107,frozen spinach,1,package
+107,"zucchini, diced",2,small
+107,"cabbage, chopped",0.5,head
+107,stewed tomatoes,1,large can
+107,tomato sauce,1,large can
+107,spaghetti sauce mix,1,package
+107,broken spaghetti,1,handful
+108,lime,1,
+108,vegetable oil,1,tbsp
+108,"onion, chopped",0.5,cup
+108,ground cumin,0.5,tsp
+108,"diced oregano leaves, crushed",0.125,tsp
+108,"garlic, minced",1,clove
+108,Campbell's condensed chicken broth,1,can
+108,water,1,soup can
+108,"tomato, chopped",0.5,cup
+108,chopped green chiles,1,4 oz. can
+108,corn tortillas,3,
+108,"monterey jack or cheddar cheese, shredded",1,cup
+108,"lettuce, shredded",1,cup
+109,peanut or vegetable oil,2,tbsp
+109,"b1d and skinned chicken breasts, cut into 1 inch pieces",2,
+109,"red or green pepper, cut in thin strips",0.5,cup
+109,"celery, sliced",0.5,cup
+109,chicken broth,13,ounces
+109,cornstarch,2,tbsp
+109,sherry,3,tbsp
+109,soy sauce,1,tbsp
+109,sugar,0.5,tsp
+110,b1d chicken breast cut into 1-inch cubes,1,
+110,sherry,0.25,cup
+110,soy sauce,1,tbsp
+110,cornstarch,1,tbsp
+110,"celery, bite size",1,cup
+110,onion,1,
+110,mushroom,1,cup
+110,pineapple tidbits,1,cup
+110,green pepper,1,
+111,flank steak,2,pounds
+111,tomatoes,2,
+111,green peppers,2,
+111,olive oil,2,tbsp
+111,garlic,1,clove
+111,salt,1,tsp
+111,pepper,1,
+111,ground ginger,0.5,tsp
+111,soy sauce,0.5,cup
+111,sugar,0.5,tsp
+111,bean sprouts,1,pound
+111,cornstarch,1,tbsp
+111,water,0.5,cup
+112,broccoli florets,2,
+112,crab or shrimp,1,
+112,beaten egg white,3,
+112,fresh mushrooms,7,
+112,chicken broth,0.25,cup
+112,soy sauce,1,tsp
+113,soy sauce,1,cup
+113,dry sherry,0.5,cup
+113,water,1,cup
+113,orange peel,1,
+113,anise,2,star
+113,"chicken breast, poached 15 minutes",2,
+113,slivered green onions,5,
+113,slivered lettuce,0.5,head
+114,"diced ham, pork or chicken",0.5,cup
+114,oil,2,tbsp
+114,sliced mushrooms (optional),3,ounces
+114,chopped green onions,0.5,cup
+114,cold cooked rice,1,quart
+114,soy sauce,2,tbsp
+114,egg,1,
+114,tbsp,1,tbsp
+115,"round steak, cut 1 inch thick",1,pound
+115,cornstarch,1,tbsp
+115,sugar,0.5,tsp
+115,ginger,0.25,tsp
+115,sauce,0.25,cup
+115,peppers,2,
+115,onion,2,
+115,oil,3,tbsp
+115,garlic,1,clove
+115,water,0.25,can
+115,"tomatoes, halved",8,
+115,dry sherry,2,tbsp
+116,sugar,4,tsp
+116,salt,1,tsp
+116,h1y,4,tsp
+116,soy sauce,3,tsp
+116,chicken bouillon,3,tbsp
+116,fresh pork butt or shoulder of pork,2,pounds
+117,dry sherry,1,tbsp
+117,cornstarch,1,tbsp
+117,"b1less chicken, cut in cubes",1,pound
+117,vegetable oil,4,tsp
+117,ginger root,0.125,slice
+117,green peppers,2,
+117,green onions,12,
+117,crushed red pepper,0.25,tsp
+117,unsalted peanuts,0.5,cup
+117,soy sauce,0.33,cup
+117,water,0.5,cup
+118,salt,1,pinch
+118,pepper,1,
+118,soy sauce,1,tsp
+118,rice vinegar,1,tbsp
+118,garlic,3,clove
+118,sugar,1,tbsp
+118,green onions,3,
+119,mexican blend cheese,1,package
+119,salsa,1,cup
+119,spinach,1,pkg
+119,chopped artichoke hearts,1,can
+119,cumin,1,tsp
+119,tortilla chips,1,bag
+120,oranges,3,large
+120,sugar,1,tsp
+120,soy sauce,2,tbsp
+120,cornstarch,1,tbsp
+120,ginger,0.5,tsp
+120,pepper,0.5,tsp
+120,unsalted beef boullion,0.5,cup
+120,water,0.25,cup
+120,flank steak,1,lb
+120,vegetable oil,2,tbsp
+120,minced garlic,1,clove
+120,onion,1,med
+120,celery,1.33,cup
+120,rice,1,cup
+121,Ribs,6,
+121,barbeque sauce,1,packet
+122,hamburger,1.5,lbs
+122,sausage,0.5,lb
+122,accent,1,tsp
+122,salt,0.75,tsp
+122,chopped onion,1,tbsp
+122,bread crumbs,0.5,cup
+122,milk,0.5,cup
+122,cornstarch,2,tbsp
+122,sugar,2,tbsp
+122,pineapple juice,1,cup
+122,pineapple chunks,1,can
+122,boullion,1,cube
+122,water,0.5,cup
+122,vinegar,0.5,cup
+122,soy sauce,2,tbsp
+122,butter,1,tbsp
+123,water,1.25,cups
+123,cornstarch,2,tbsp
+123,soy sauce,4,tbsp
+123,ketchup,1,tsp
+123,"medium-size raw shrimp, peeled and deveined",0.5,lb
+123,vegetable oil,2,tbsp
+123,minced garlic,1,clove
+123,minced ginger,0.5,tsp
+123,"green bell pepper, chunked",1,
+123,"medum onion, chunked",1,
+123,"celery, thinly sliced diagonally",2,stalks
+123,tomatoes,2,
+123,chinese noodle Cake,1,
+124,fish fillets,3,lb
+124,milk,2.25,cups
+124,salt,1.5,tsp
+124,pepper,0.125,tsp
+124,margerine,0.5,cup
+124,flour,0.5,cup
+124,lemon juice or sherry,0.5,cup
+124,grated cheese,0.5,lb
+124,chopped green onions,4,
+124,sliced mushrooms,8,
+124,paprika,1,tsp
+125,slices bacon for each,2,
+125,"onion, thinly sliced",1,
+125,"bay leaf, crumbled",1,
+125,margerine,3,tbsp
+125,flour,2,tbsp
+125,fine cracker crumbs,0.5,cup
+125,salt and pepper,1,pinch
+126,butter,2,tbsp
+126,flour,2,tbsp
+126,chicken bouillon,1,tsp
+126,nutmeg,,dash
+126,red pepper,,dash
+126,white pepper,,dash
+126,milk,1,cup
+126,shredded Swiss or cheddar cheese,0.66,cup
+126,"spinach, thawed and well-drained",1,pkg
+126,lemon juice or sherry,1,tbsp
+126,"fish fillets, cut in serving pieces",1,lb
+126,salt,0.5,tsp
+126,grated parmesan cheese,2,tbsp
+126,paprika,1,pinch
+127,melted Mexican blend cheese,1,pkg
+127,salsa,1,cup
+127,chopped spinach,1,pkg
+127,artichoke hearts,1,can
+128,scallops,1,lb
+128,very fine bread crumbs,1,cup
+128,paprika,1,tsp
+128,butter,1,tbsp
+128,minced onion,1,tbsp
+128,salt,1,pinch
+128,pepper,1,
+128,lemon juice or white wine,2,tbsp
+129,linguini,1,lb
+129,butter,0.25,cup
+129,minced garlic,2,clove
+129,flour,2,tbsp
+129,chopped clams,2,cans
+129,white wine with clam juice and enough half-and-half to make 2 cups of liquid,0.25,cup
+129,chopped parsley,0.25,cup
+129,dried thyme,0.5,tsp
+129,salt,1,pinch
+129,pepper,1,
+130,sole filets,1,pound
+130,flour,0.5,cup
+130,salt,0.5,tsp
+130,white pepper,0.25,tsp
+130,milk,0.25,cup
+130,vegetable oil,4,tbsp
+130,margarine,1,tbsp
+130,lemon juice,2,tbsp
+130,"almonds, sliced thin",1,tbsp
+130,white wine,1,splash
+131,cream cheese,2,pkg
+131,mayonaise,3,tbsp
+131,worchester,4,tsp
+131,crab meat,2,cans
+131,garlic,1,clove
+131,cheddar cheese,0.5,cup
+132,butter or margarine,0.25,cup
+132,"raw shrimp, peeled and deveined",1,pound
+132,"fresh mushrooms, sliced",0.5,pound
+132,"green pepper, chopped",0.5,small
+132,"clove, minced",1,clove
+132,linguini or spaghetti,3,ounces
+132,grated Romano cheese,8,cup
+132,salt,0.5,tsp
+132,pepper,0.5,tsp
+132,"fresh parsely, chopped",0.25,
+132,lemon slices,1,
+133,flank steak,1.25,pounds
+133,soy sauce,3,tbsp
+133,dry sherry,1,tbsp
+133,cornstarch,2,tsp
+133,"fresh ginger, grated",1,tsp
+133,"garlic, finely chopped",1,clove
+133,broccoli,0.75,pounds
+133,vegetable oil,2,tbsp
+133,"onion, cut in thin wedges",1,medium
+133,water or chicken stock,2,tbsp
+133,bean sprouts,1,cup
+134,salt,1,tsp
+134,pepper,0.125,tsp
+134,chili powder,1,tsp
+134,celery salt,1,tsp
+134,vinegar,0.25,cup
+134,worchestershire sauce,0.25,cup
+134,"garlic, chopped",3,clove
+134,"lemon, sliced thinly",1,
+134,"onion, chopped",0.5,cup
+134,catsup,1,cup
+134,hot water,1,cup
+134,brown sugar,0.5,cup
+135,pork 10derloin,1,pound
+135,salt,0.5,tsp
+135,soy sauce,1.5,tsp
+135,cornstarch,1,tbsp
+135,cold water,1,tbsp
+135,chicken coasting mix,0.5,cup
+135,ice water,0.5,cup
+135,egg yolk,1,
+136,beef round steak,2,pound
+136,"tomatoes, blanched",5,
+136,"green onions, chopped",2,tbsp
+136,sugar,1,tbsp
+136,salt,1.5,tsp
+136,basil,1,tsp
+136,cornstarch,1,tbsp
+137,"veal steak, sliced thinly",2,pounds
+137,flour,0.5,cup
+137,oil,4,tbsp
+137,sliced mushrooms,1,can
+137,sauterne wine,2,cups
+137,onion,0.25,cup
+137,salt and pepper,1,pinch
+138,sliced onions,2,
+138,wesson oil,3,tbsp
+138,"steak, cubed",1.5,pounds
+138,paprika,3,tsp
+138,salt,1.5,tsp
+138,hot water,1,cup
+138,tomato sauce,8,ounces
+138,sour cream,4,tbsp
+138,hot buttered noodles,1,
+139,oil,3,tbsp
+139,"garlic, minced",3,clove
+139,"onion, chopped",1,
+139,"tomatoes, canned",32,ounces
+139,salt,1.5,tsp
+139,pepper,0.5,tsp
+139,tomato sauce,8,ounces
+139,thyme,0.25,tsp
+139,"veal, sliced thinly",1,pound
+139,"egg, bea10",1,
+139,bread crumbs,1.5,cups
+139,grated parmesan cheese,0.5,cup
+139,oil,3,tbsp
+139,"mozzarella, sliced thinly",0.5,pound
+139,parmesan,0.25,cup
+140,soy sauce,0.5,cup
+140,white wine,0.5,cup
+140,sugar,2,tbsp
+140,ginger,1.5,tsp
+140,"garlic, chopped",1,clove
+141,round steak,1,
+141,garlic,1,clove
+141,flour,2,tbsp
+141,salt,3,tsp
+141,pepper,0.5,tsp
+141,"onion, chopped",0.5,cup
+141,oil,0.25,cup
+141,mushroom soup,1,can
+141,"mushrooms, sliced",0.5,pound
+141,sour cream,1,cup
+142,wheat germ (optional),0.25,cup
+142,sugar,3,tbsp
+142,"butter, melted",0.33,cup
+142,graham cracker crumbs,1.75,cup
+142,cinnamon,1,tsp
+142,sour cream,0.2,pint
+142,vanilla,1,tsp
+142,sugar,0.33,cup
+142,salt,0.125,tsp
+142,cream cheese,8,ounces
+142,egg,4,
+142,vanilla,2,tsp
+142,flour,2,tbsp
+142,cottage cheese,0.5,pint
+142,lemon juice,1,tbsp
+142,sugar,0.66,cup
+142,salt,0.25,tsp
+143,"green onions, chopped",0.5,cup
+143,can of shrimp,1,small
+143,water chestnuts,1,can
+143,bean sprouts,1,can
+143,salt and pepper,1,pinch
+143,bea10 egg,6,
+143,butter melted,3,tbsp
+143,flour,3,tbsp
+143,sugar,2,tbsp
+143,salt,0.5,tsp
+143,water,1,cup
+143,soy sauce,2,tbsp
+144,shrimp,16,ounces
+144,oil,3,tbsp
+144,diced celery,2,cups
+144,green onions,0.5,cup
+144,bean sprouts,0.5,pound
+144,"cabbage, finely shredded",3,cups
+144,"water chestnuts, finely chopped",0.5,cup
+144,"bamboo shoots, finely chopped",0.5,cup
+144,soy sauce,2,tbsp
+144,sherry,2,tbsp
+144,salt,2,tsp
+144,water,3,tsp
+144,egg roll wrappers,16,
+144,"egg, slightly bea10",1,
+145,egg,2,
+145,flour,1,cup
+145,cornstarch,2,tbsp
+145,salt,0.5,tsp
+145,water,2,cups
+146,sugar,0.75,cup
+146,vinegar,0.5,cup
+146,water,0.75,cup
+146,"pineapple chunks, injuice",0.75,cup
+146,cornstarch,2,tsp
+146,green pepper (optional),1,
+146,ribs,5,
+147,oil,2,tbsp
+147,"onion, chopped quite large",1,cup
+147,"celery, cut into large chunks",1,cup
+147,"cooked pork, cubed",3.5,cups
+147,bean sprouts,1,can
+147,mushroom soup or leftover pork gravy,1,can
+147,"water chestnuts, sliced",1,can
+147,soy sauce,4,tbsp
+147,salt and pepper,1,pinch
+147,"pea pods, frozen",1,pkg
+147,chinese noodles,1,large can
+148,"precooked rice, cook overnight",1,cup
+148,shrimp,10,
+148,"green onions, diced",3,
+148,pineapple,1,
+148,soy sauce,1,tsp
+149,"pork 10derloin, cut into chunks",1,pound
+149,salt,0.5,tsp
+149,soy sauce,1.5,tsp
+149,cornstarch,1,tbsp
+149,cold water,1,tbsp
+149,chicken coating mix,0.5,cup
+149,ice water,0.5,cup
+149,"egg, bea10",1,
+149,oil,1,tbsp
+149,"green pepper, sliced",1,
+149,"onion, chopped",1,medium
+149,"carrot, diagonally sliced",1,
+149,ketchup,1.5,cups
+149,brown sugar,0.66,cup
+149,granulated sugar,0.66,cup
+149,cinnamon,0.5,tsp
+149,ginger,0.5,tsp
+149,lemon,1,large
+149,pinapple chunks,1,cup
+150,"chickens, cut in pieces",2,
+150,dry sherry,1,cup
+150,butter,0.5,cup
+150,"mushrooms, sliced",1,cup
+150,lemon juice,2,tbsp
+150,"onion, minced",1,large
+150,parsley,2,tbsp
+150,salt and pepper,1,pinch
+151,"chicken breast halves, b1d and skinned",4,
+151,cornstarch,2,tbsp
+151,ground cumin,1,tsp
+151,garlic salt,1,tsp
+151,"egg, slightly bea10",1,
+151,water,1,tbsp
+151,cornmeal,0.33,cup
+151,oil,3,tbsp
+151,"avocado, peeled and sliced",1,
+151,"monteray jack cheese, shredded",1.5,cups
+151,sour cream,0.5,cup
+151,"green onion tops, sliced",0.25,cup
+151,"red pepper, chopped",0.25,cup
+151,cherry tomatoes,5,
+151,parsley sprigs,1,
+152,"egg, slightly bea10",1,
+152,milk,0.66,cup
+152,vegetable oil,1,tbsp
+152,"flour, sifted",1,cup
+152,baking powder,1.5,tsp
+152,seas1d salt,2,tsp
+152,pepper,0.25,tsp
+152,"chicken, cut up",1,small
+152,oil,1,tbsp
+153,catalina french dressing,0.75,cup
+153,soy sauce,0.25,cup
+153,garlic powder,0.5,tsp
+153,"b1less, skinless chicken breast, cubed",1,pound
+153,"any frozen mixed vegetable, thawed",16,ounces
+154,"leaf spinach, cut",10,ounces
+154,"butter, melted",3,tbsp
+154,"skinless b1less chicken breasts, cut in 1/2",2,whole
+154,dry bread crumbs,0.33,cup
+154,basil leaves,0.25,tsp
+154,oil,2,tbsp
+154,shredded mozzarella cheese,2,ounces
+155,chicken breasts,3,
+155,"pea pods, fresh or frozen",0.5,pound
+155,"mushrooms, sliced",1,cup
+155,"green onions, sliced",0.5,cup
+155,"bamboo shoots, drained",6,ounces
+155,"water chestnuts, sliced",0.5,cup
+155,chicken boullion,1,tsp
+155,soy sauce,0.25,cup
+155,cornstarch,2,tbsp
+155,sugar,0.5,tsp
+155,pepper,1,dash
+155,salt,0.5,tsp
+155,cashews,2,ounces
+156,"chicken breast, sliced and marinated",2,
+156,soy sauce,3,tbsp
+156,sherry,1,tbsp
+156,cornstarch,2,tbsp
+156,"green onion, sliced",2,
+156,mushrooms,6,
+156,pea pods,14,pounds
+156,"red pepper, chopped",1,large
+156,chicken boullion,0.5,cup
+156,linguini,1,bag
+157,flour,1,cup
+157,paprika,2.5,tsp
+157,cayenne,0.5,tsp
+157,ginger,0.25,tsp
+157,nutmeg,0.25,tsp
+157,basil,1,tsp
+157,salt,0.5,tsp
+157,pepper,0.25,tsp
+157,"chicken, skinned and b1d",10,pieces
+157,oil,4,tbsp
+157,"garlic, large",1,clove
+157,chicken broth,2.5,cups
+157,sour cream,2,cups
+157,dry sherry,1,cup
+157,worchestershire sauce,2,tbsp
+157,mushrooms,1,lb
+158,flour,0.33,cup
+158,salt,0.125,tsp
+158,pepper,0.125,tsp
+158,"bread crumbs, dried",0.33,cup
+158,paprika,0.125,tsp
+158,garlic powder,0.33,tsp
+158,vegetable oil,3,tbsp
+158,"chicken cutlets, pounded to 1/8 inch thick",4,
+158,"egg, lightly bea10",2,
+158,onion,1,cup
+158,"apples, cored, pared, thinly sliced",2,
+158,chicken broth,1.5,cups
+158,sauerkraut,4,cups
+158,raisins,4,tbsp
+158,"lemons, thinly sliced",2,
+159,"chicken breast, split",2,
+159,chicken thighs,4,
+159,butter,1,tbsp
+159,flour,1,cup
+159,salt and pepper,1,pinch
+159,"mushrooms, sliced",1,lb
+159,artichokes,1,can
+159,"onion, grated",1,tbsp
+159,white sauterne wine,1,cup
+160,chicken,1,
+160,"pork shoulder steak, cut into 1/2 inch cubes",0.33,pound
+160,boiling onions,8,small
+160,mushrooms,0.5,pound
+160,chicken broth,1.75,cups
+160,dry red wine,1,cups
+160,dijon mustard,2,tbsp
+160,cornstarch and water,1,tsp
+160,"parsely, chopped",2,tbsp
+161,miracle whip,0.5,cups
+161,"boneless, skinless chicken breast, cubed",1,pound
+161,"broccoli, chopped",2,cups
+161,Velveeta,0.5,pound
+161,rice,1,cup
+162,skinless b1less chicken breasts,1,pound
+162,vegetable oil,3,tbsp
+162,"white onions, chopped",0.5,cup
+162,"garlic, minced",2,clove
+162,"green onions, sliced",0.25,cup
+162,curry powder,2,tsp
+162,powdered sugar,1,tsp
+162,cornstarch,2,tbsp
+162,chicken broth,1.5,cups
+162,"broccoli florets, bite size pieces",0.5,pound
+162,"cooking apple, cored and chopped",1,large
+162,raisins,0.5,cup
+162,chopped peanuts,0.25,cup
+163,zucchini,3,medium
+163,"green onions, chopped",0.25,cup
+163,flour,0.25,cup
+163,chili powder,1,tbsp
+163,butter,3,tbsp
+163,"chicken breast halves, b1d and skinned",4,
+163,freshly ground pepper,1,pinch
+163,jack cheese,0.25,pound
+164,"broiler chicken, cut up",3.5,pound
+164,all-purpose flour,0.5,cup
+164,salt,0.5,tsp
+164,pepper,0.25,tsp
+164,vegetable oil,1,tbsp
+164,water,0.25,cup
+164,butter,1,tbsp
+164,milk,1,cup
+165,chicken parts,2,pounds
+165,cream of mushroom soup,1,can
+165,milk,0.75,cup
+165,"onion, chopped",1,tbsp
+165,"parsley, chopped",1,tbsp
+165,crushed stuffing mix,1,cup
+165,butter,2,tbsp
+166,Italian salad dressing,0.25,cup
+166,"chicken, cut up",1,
+166,egg,1,
+166,water,2,tbsp
+166,parmasen cheese,0.5,cup
+166,bread crumbs,0.33,cup
+166,parsley,2,tbsp
+166,salt,0.5,tsp
+166,paprika,0.5,tsp
+166,pepper,0.125,tsp
+167,marinated artichoke hearts,2,jars
+167,chicken parts,3,pounds
+167,"salt, pepper, flour",1,pinch
+167,sliced mushrooms,1,cup
+167,Uncle Ben's Converted Rice,1.5,cups
+167,slivered ham,0.5,cup
+167,salt,0.5,tsp
+167,sliced onion,1,large
+167,mashed garlic,1,clove
+167,can Italian style tomatoes,1,large
+167,red wine,0.5,cup
+167,Italian seasoning,0.75,tsp
+167,parsley,1,sprig
+168,"chicken breasts, skinned and b1d",2,
+168,"mushrooms, sliced",1,cup
+168,butter,1,tbsp
+168,wine cooler,0.25,cup
+168,bouillon,1,cup
+168,flour,1,tbsp
+168,garlic,1,clove
+168,salt,1,pinch
+168,pepper,1,
+168,paprika,1,tsp
+168,cooked rice,1,cup
+169,chicken livers,1,pound
+169,butter,0.25,cup
+169,"onions, minced",0.25,cup
+169,flour,0.25,cup
+169,salt and pepper,1,pinch
+169,dry white wine,0.5,cup
+169,poultry seasoning,0.25,tsp
+169,parsley,1,tbsp
+169,oregano,0.25,tsp
+169,salt,1,pinch
+169,"mushrooms, sliced",0.25,pound
+170,chicken wings or drumettes,1,pkg
+170,soy sauce,2,tbsp
+170,Louisiana-style hot sauce,2,tbsp
+170,melted butter or margarine,2,tbsp
+170,h1y,1.5,tsp
+170,garlic powder,,dash
+170,ground ginger,,dash
+171,turkey breast 10derloins,1,pkg
+171,butter,1,tbsp
+171,"onion, sliced into rings",1,medium
+171,cream of chicken soup,1,can
+171,"swiss cheese, shredded",1,cup
+171,hot cooked rice or noodles,4,servings
+172,sparagus,1,pound
+172,oil,2,tbsp
+172,"garlic, minced",1,clove
+172,"fresh ginger, minced",1,tsp
+172,chicken stock,0.25,cup
+172,soy sauce,2,tsps
+172,cornstarch,0.5,tsp
+173,fresh green beans,1,pound
+173,water,0.5,cup
+173,"onion, minced",1,tsp
+173,"garlic, minced",1,clove
+173,dried tarragon,0.5,tsp
+173,salt,0.25,tsp
+173,pepper,0.25,tsp
+174,"mushrooms, rinsed",1,pound
+174,onion,1,medium
+174,chicken broth,1.5,cups
+174,egg,3,large
+174,"zucchini, shredded",4,large
+174,fine dried bread crumbs,0.5,cup
+174,"parmasen cheese, grated",0.25,cup
+174,dried oregano,0.5,tsp
+174,pepper,0.5,tsp
+174,"green onion, minced",2,tbsp
+175,"onion, chopped",0.5,small
+175,"garlic, minced",1,clove
+175,butter or margarine,1,tbsp
+175,"zucchini, shredded",1.5,cups
+175,"egg, slightly bea10",3,
+175,"monterey jack cheesed, shredded",1.5,cups
+175,cornmeal,3,tbsps
+175,"cumin seed, crushed",0.25,tsp
+175,"dried oregano, crushed",0.25,tsp
+176,spinach,1,can
+176,"egg, bea10",4,
+176,milk,1,cup
+176,"swiss cheese, shredded",1,cup
+176,"white bread, cubed",1,cup
+176,green onion,0.5,cup
+176,parmesan cheese,0.25,cup
+177,"onion, sliced thinly",1,
+177,"zucchini, sliced",3,small
+177,"garlic, minced",1,large clove
+177,oil,0.33,cup
+177,"cooked slivered ham, optional",2,cups
+177,"swiss cheese, shredded",1,cup
+177,sour cream,1.25,cups
+177,"egg, beaten",3,
+177,oregano,0.5,teaspoon
+177,salt,1,teaspoon
+177,pepper,0.25,teaspoon
+178,butter,2,tbsps
+178,"cabbage, shredded",8,cups
+178,"garlic, minced",1,clove
+178,sour cream,0.5,cup
+178,sugar,1,tbsp
+178,vinegar,2,tbsps
+178,salt,1,tsp
+178,caraway seed,0.5,tsp
+179,red potatoes,1.5,pounds
+179,"onion, grated",1,small
+179,salt,1,pinch
+179,pepper,1,
+179,egg,1,
+180,"potatoes, unpeeled",6,medium
+180,onions,6,medium
+180,butter,0.5,cup
+180,"garlic, crushed",1,clove
+180,salt,0.75,tsp
+180,pepper,0.25,tsp
+180,celery seed,0.25,tsp
+180,paprika,0.25,tsp
+181,"egg, seperated",1,large
+181,ricotta cheese,0.75,cup
+181,"mozzarella or provol1, coarsely grated",0.5,cup
+181,"fresh parsley, chopped",2,tbsps
+181,pepper,0.25,tsp
+181,eggplant,1,large
+181,red wine vinaigrette,0.25,cup
+181,marinara sauce,1,cup
+181,dried basil,1,tbsp
+182,carrots,1,
+182,butter,0.25,cup
+182,powdered sugar,0.5,cup
+182,water,1,cup
+182,spoonful of orange marmalade,1,large
+183,salad oil,1,cup
+183,vinegar,0.5,cup
+183,package of dry spaghetti sauce mix,1,pkg
+183,"green beans, dried",2,cans
+183,shredded lettuce,2,cups
+183,"crisp bacon, crumbled",6,slices
+184,zucchini,6,
+184,salad oil,1,tbsp
+184,garlic,1,clove
+184,onion,1,
+184,mushrooms,0.5,lb
+184,rosemary,1,
+184,salt,1,pinch
+184,pepper,1,
+184,"parsely, chopped",1,tbsp
+184,thyme,1,tsp
+184,savory salt,1,pinch
+185,"bacon, cut up",8,slices
+185,"onion, minced",0.5,cup
+185,"fresh mushrooms, sliced",1,pound
+185,flour,1,tsp
+185,sour cream,1,cup
+185,worcestershire sauce,1,tsp
+185,toast slices,1,
+186,sweet potatoes,3,large
+186,water,4,cups
+186,butter,0.5,cup
+186,powdered sugar,1,cup
+186,"oranges, sliced thin",2,
+187,"frozen peas, cooked",1,pkg
+187,small onions,1,can
+187,sauterne wine,0.5,cup
+187,parsley flakes,1,tsp
+187,salt,1,pinch
+187,pepper,1,pinch
+187,crisply fried bacon bits,1,sprinkle
+188,zucchini,2,small
+188,"garlic, minced",1,clove
+188,butter,2,tbsps
+188,parmesan cheese,1,sprinkle
+189,phyllo pastry,16,sheets
+189,butter or margarine,0.25,cup
+189,"onion, finely chopped",0.5,cup
+189,"frozen chopped spinach, thawed and drained",30,ounces
+189,egg,3,
+189,"feta cheese, crumbled",0.5,pound
+189,"parsley, chopped",0.25,cup
+189,"fresh dill, chopped",2,tbsps
+189,salt,1,tsp
+189,pepper,0.125,tsp
+189,"butter or margarine, melted",0.75,cup
+190,"margarine, melted",2,tbsps
+190,flour,2,tbsps
+190,salt and pepper,0.5,tsp
+190,worcestershire sauce,1,tsp
+190,milk,0.75,cup
+190,"egg, seperated",3,
+190,"spinach, cooked",1,cup
+191,"fresh spinach, stems removed",3,pounds
+191,unsalted butter,6,tbsp
+191,"shallots, chopped",24,
+191,"gorgonzola cheese, crumbled",12,ounces
+191,"cream cheese, sof10ed",27,ounces
+191,phyllo pastry sheets,24,
+191,"unsalted butter, melted",1.5,cups
+191,dry bread crumbs,18,tbsp
+191,"egg, bea10",2,
+191,parsley sprigs,2,
+192,zucchini,3,6 inch
+192,hamburger or sausage,0.5,pound
+192,"onion, chopped",1,
+192,croutons,2,cups
+192,boullion cube,1,
+192,salt,1,pinch
+192,pepper,1,pinch
+192,garlic,1,clove
+192,thyme,1,tsp
+192,oregano,1,tsp
+192,sage,1,tsp
+192,egg,2,
+192,parmesan cheese,1,sprinkle
+192,melted butter or margarine,1,tbsp
+193,summer squash,1,
+193,butter salt,1,tbsp
+193,pepper,1,
+193,worcestershire sauce,1,tbsp
+193,egg,2,
+193,cracker crumbs,1,sprinkle
+193,"onion, grated",1,small
+193,parmesan cheese,0.5,cup
+193,paprika,1,tsp
+193,"bacon bits, crisply fried",1,sprinkle
+194,oil,3,tbsp
+194,"red cabbage, shredded",6,cups
+194,"unparred apple, cubed",3,cups
+194,brown sugar,0.33,cup
+194,vinegar,0.5,cup
+194,water,0.33,cup
+194,pepper,1,
+194,caraway seed,0.75,tsp
+195,"frozen spinach, chopped",45,ounces
+195,butter,2,tbsp
+195,"bacon, cut into 1/2 inch dice",10,slices
+195,"onions, chopped",2,large
+195,flour,2,tbsp
+195,milk,1,cup
+195,nutmeg,0.25,tsp
+195,beef stock base or a boullion cube,1,tsp
+196,"onion, chopped",0.5,medium
+196,"mushroom stems and pieces, drained",1,4 ounce can
+196,frozen chopped spinach,2,10 ounce package
+196,low fat cottage cheese,2,cups
+196,grated parmesan cheese,0.33,cup
+196,"egg, lightly beaten",2,
+196,salt,1,pinch
+196,pepper,1,pinch
+196,grated swiss cheese,0.33,cup
+196,paprika,1,pinch
+197,"frozen hashbrown potatoes, thawed",2,packages
+197,"butter, melted",0.25,cup
+197,salt,1,teaspoon
+197,pepper,0.5,teaspoon
+197,dried onions or 1/2 cup fresh,3,tablespoons
+197,cream of chcken soup,1,can
+197,"cheddar cheese, grated",2,cups
+197,sour cream,1.5,cups
+197,melted butter,0.25,cup
+197,"cornflakes, crushed",2,cups
+198,zucchini,5,medium
+198,egg,3,
+198,parmesan cheese,1,tablesoon
+198,garlic,1,clove
+198,flour,2,tablespoons
+198,parsley,0.5,cup
+198,onion,0.5,cup
+198,salt,1,teaspoon
+198,pepper,0.5,teaspoon
+198,olive oil,0.5,cup
+199,sugar,2,cups
+199,water,2,cups
+199,cinnamon,0.25,teaspoon
+199,nutmeg,0.5,teaspoon
+199,"butter, melted",0.5,cup
+199,"apples, peeled, cut in 1/4",6,
+199,flour,2,cups
+199,salt,1,teaspoon
+199,baking powder,2,teaspoons
+199,shortening,0.75,cup
+199,milk,0.5,cup
+200,flour,2.5,cups
+200,sugar,1,tablespoon
+200,salt,1,
+200,shortening,1,cup
+200,"egg yolk, plus enough milk to make 1/2 cup",1,
+200,"cornflakes, crushed",1,cup
+200,"tart apples, sliced",5,cups
+200,sugar,1.5,cups
+200,cinnamon,1,teaspoon
+201,whole prunes,1.5,cups
+201,water,1.5,cups
+201,egg whites,3,
+201,salt,0.5,teaspoon
+201,sugar,0.5,cup
+201,lemon juice,2,tablespoons
+201,"pecans, chopped",0.5,cup
+202,"peaches, sliced",4,cups
+202,small marshmallows,0.5,cup
+202,cold water,0.25,cup
+202,powdered sugar,1,cup
+202,"vanilla wafers, crushed",2,cups
+202,knox gelatin,1,package
+202,margarine,0.33,cup
+202,egg,2,
+203,"fresh peaches (or frozen, thawed), sliced",4,cups
+203,"sugar, divided",1.5,cups
+203,almond flavoring,0.5,teaspoon
+203,"butter or margarine, melted",0.5,cups
+203,flour,0.75,cups
+203,baking powder,2,teaspoons
+203,salt,,pinch
+203,milk,0.75,cups
+204,sugar,0.5,cups
+204,knox gelatin,1,envelope
+204,salt,0.125,teaspoon
+204,milk,2.5,cups
+204,vanilla,1,teaspoon
+204,egg,3,
+205,olive oil,2,tablespoons
+205,"green onion, minced",0.5,cup
+205,"garlic, pressed",2,clove
+205,"parsley, minced",3,tablespoon
+205,leaf oregano,1,teaspoon
+205,egg,4,
+205,"artichoke hearts, drained, finely chopped",14,ounce can
+205,dry bread crumbs,0.25,cup
+205,"mozzarella cheese, shredded",0.5,pound
+205,salt,0.5,teaspoon
+205,hot pepper liquid,1,
+206,"10 inch pie shell, partially baked",1,
+206,"egg, beaten",4,large
+206,flour,3,tablespoons
+206,paprika,1,teaspoon
+206,salt,1,teaspoon
+206,dry mustard,0.5,teaspoon
+206,half and half,1.5,cups
+206,grated swiss cheese,2,cups
+206,"fresh aparagus spears, washed and trimmed",10,
+206,"tomato, sliced into four 1/4"" slices",1,medium
+207,beef,1,pound
+207,"garlic, chopped",1,clove
+207,salt,2,teaspoons
+207,vinegar,1,tablespoons
+207,water,1,tablespoon
+207,chili powder,1,tablespoon
+207,red kidney beans,1,tablespoon
+207,tortillas,10,
+207,salad oil,3,tablespoons
+207,"garlic, chopped",1,clove
+207,"onion, chopped",0.25,cup
+207,flour,2,tablespoons
+207,tomato sauce,2,cans
+207,vinegar,1,tablespoon
+207,beef bouillon,1,cube
+207,boiling water,1,cup
+207,chili powder,2,teaspoon
+207,salt,0.5,teaspoon
+207,pepper,1,
+208,10 inch baked pie shell,1,
+208,butter,3,tablespoons
+208,"onion, diced",1,cup
+208,hamburger,1,pound
+208,egg,2,large
+208,heavy cream,1,cup
+208,"spinach, drained",1,can
+208,salt,0.75,teaspoon
+208,pepper,0.25,teaspoon
+208,nutmeg,0.125,teaspoon
+208,cheese,0.5,cup
+209,"minute rice, uncooked",2,cups
+209,"frozen broccoli, chopped",1,package
+209,onion,1,medium
+209,"celery, chopped",0.5,cup
+209,mushroom soup,1,cup
+209,Cheeze Whiz,1,pound
+209,butter,0.5,stick
+210,fresh broccoli,1.5,pounds
+210,"onion, minced",0.66,cup
+210,milk,1.25,cups
+210,nutmeg,0.125,teaspoon
+210,parmesan cheese,0.33,cup
+210,pepper sauce,3,drops
+210,"egg, slightly beaten",4,
+210,salt,1,teaspoon
+210,pepper,1,pinch
+210,parsley,1,tablespoon
+210,swiss cheese,0.66,cup
+211,bread,12,slices
+211,grated cheese,2,cups
+211,"egg, beaten",4,
+211,milk,2.5,cups
+211,salt,0.75,teaspoon
+211,pepper,0.125,teaspoon
+211,dry mustard,0.5,teaspoon
+212,"boned chicken breasts, cooked, cut into bite-size",6,
+212,"onion, chopped",1,large
+212,"bacon, chopped",0.25,pound
+212,yellow cornmeal,2,cups
+212,chicken broth,3,cups
+212,"egg, beaten",3,
+212,cumin,2,teaspoons
+212,salt,1,pinch
+212,cayenne pepper,1,tsp
+212,tomatoes,1,large can
+212,creamed corn,1,can
+212,oil,1,cup
+212,chili powder,1,tablespoon
+212,"bacon, chopped",1,sprinkle
+212,onions,1,
+212,sliced olives,0.25,can
+213,egg,10,
+213,flour,0.5,cup
+213,baking powder,1,teaspoon
+213,salt,0.5,teaspoon
+213,cottage cheese,2,cups
+213,"jack cheese, shredded",4,cups
+213,diced green chiles,2,4 oz cans
+214,medium noodles,1,12 oz package
+214,"onion, chopped",1,medium
+214,"butter or margarine, melted",2,tablespoons
+214,cream of mushroom soup or 2 cans cream of mushroom and 1 can chicken broth,3,cans
+214,jar pimentos,1,4 oz
+214,chopped green chiles,1,4 oz
+214,"chicken, cooked and boned, cut into bite-size pieces",1,whole
+214,"cheddar cheese, grated",2,cups
+215,mushroom soup,1,can
+215,tuna in oil,1,can
+215,cashew nuts,1,3 oz package
+215,"celery, chopped",1,cup
+215,"onion, chopped",0.25,cup
+215,chow mein noodles,1,can
+216,flour,1,cup
+216,salt,1,teaspoon
+216,oregano or italian seasoning,0.5,teaspoon
+216,pepper,0.125,teaspoon
+216,egg,2,
+216,milk,0.66,cup
+217,Chef Boyardee package pizza mix,1,package
+217,hamburger,1,pound
+217,chopped onion,0.5,cup
+217,"tomatoes, drained and chopped",1,16 oz can
+217,mushroom stems and pieces,1,can
+217,sliced olives,0.5,cup
+217,"jack and mozzarella cheese, shredded",1,cup
+218,ground beef,1,pound
+218,cooked pasta,5,cups
+218,spaghetti sauce,1,30 oz jar
+218,parmesan cheese,0.5,cup
+218,"mozzarella cheese, shredded",1,8 oz package
+219,"elbow macaroni, cooked",1.5,cups
+219,"onion, diced",1,small
+219,"left-over beef, cubed",1.5,cups
+219,cubed cheese,1,cup
+219,stewed tomatoes,1,can
+219,tomato sauce,1,8 oz can
+219,garlic,1,clove
+219,salt,1,pinch
+219,pepper,1,pinch
+219,parsley,1,pinch
+220,Bisquick baking mix,1,cup
+220,cold water,0.25,cup
+220,"fresh or frozen broccoli, chopped",1,cup
+220,"swiss cheese, shredded",1,cup
+220,"french fried onions,",1,cup
+220,egg,4,
+220,whipping cream,2,cups
+220,salt,0.75,teaspoon
+220,sugar,0.25,teaspoon
+220,cayenne pepper,0.125,teaspoon
+221,ground beef,1,pound
+221,"onion, chopped",0.5,cups
+221,taco seasoning mix,1,envelope
+221,"chopped green chiles, drained",1,4 oz can
+221,milk,1.25,cups
+221,Bisquick baking mix,0.75,cups
+221,egg,3,
+221,tomatoes,2,
+221,"monterey jack or cheddar cheese, shredded",1,cup
+222,"fresh basil or parsley, crushed",1,cup
+222,"red or green pepper, cut up",1,medium
+222,reduced calorie mayonnaise,0.5,cup
+222,"parmesan cheese, grated",2,tablespoons
+222,lemon juice,1,tablespoon
+222,salt,0.5,teaspoon
+222,ground red pepper,0.125,teaspoon
+222,ground black pepper,0.125,teaspoon
+222,fettucine or linguine,8,oz
+222,"carrots, julienned",2,large
+222,"cooked chicken or turkey breast, cut into strips",10,oz
+223,margarine,2,tablespoons
+223,ground chuck,1,pound
+223,Lipton onion soup mix,1,envelope
+223,pork and beans in tomato sauce,1,16 oz can
+223,"kidney beans, drained",1,16 oz can
+223,ketchup,1,cup
+223,cold water,0.5,cup
+223,prepared mustard,2,tablespoons
+223,cider vinegar,2,teaspoons
+224,chicken pieces,2,pounds
+224,shortening,2,tablespoons
+224,milk,0.5,can
+224,cream of chicken soup,1,can
+224,poultry seasoning,0.25,teaspoon
+224,salt,0.25,teaspoon
+224,pepper,1,pinch
+224,"carrots, cut into chunks",4,
+224,frozen lima beans,1,package
+224,onions,6,small
+225,sour cream,1,pint
+225,"green onions, chopped",1,cup
+225,cumin,0.5,teaspoon
+225,shredded cheese,4,cups
+225,corn tortillas,12,
+225,oil,4,tablespoons
+225,enchilada sauce,1,can
+226,fresh spinach,0.5,pound
+226,bacon,3,slices
+226,"green onion, chopped",0.25,cup
+226,"clove garlic, minced",1,medium
+226,basil,0.5,teaspoon
+226,salt,1,pinch
+226,pepper,1,pinch
+226,egg,5,
+226,water,0.25,cup
+226,"swiss cheese, grated",0.5,cup
+227,hamburger,1,pound
+227,fresh ripe tomato,1,
+227,caraway seed,1,teaspoon
+227,salt,1,teaspoon
+227,pepper,1,pinch
+227,egg,1,
+227,cooked rice,0.25,cup
+227,chopped onion,0.25,cup
+227,tomatoes,1,can
+228,onion,1,
+228,garlic,1,clove
+228,cornmeal,1,cup
+228,salad oil,0.5,cup
+228,hamburger,1,pound
+228,spanish seasoning,2,tablespoons
+228,tomatoes,1,2.5 pound can
+228,cream corn,1,can
+228,pitted olives,1,can
+228,tomato soup,1,can
+228,grated cheese,1,pinch
+228,salt,1,pinch
+228,pepper,1,pinch
+229,"frozen hashbrowns, thawed",2,pounds
+229,melted butter,0.25,cup
+229,teaspoon salt,1,teaspoon
+229,pepper,0.5,teaspoon
+229,dried onion or 1/2 cup fresh,3,tablespoons
+229,cream of chicken soup,1,can
+229,"cheddar cheese, grated",2,cups
+229,sour cream,1.5,cups
+229,"butter, melted",0.25,cup
+229,"cornflakes, crushed",2,cups
+230,lasagna noodles,1,pounds
+230,olive oil,3,tablespoons
+230,"garlic, finely chopped",2,clove
+230,"shallots, finely chopped",3,
+230,"button mushrooms, chopped",0.75,pound
+230,"shitake mushrooms, chopped",0.5,pound
+230,butter,0.25,cup
+230,flour,0.25,cup
+230,milk,3,cups
+230,"gorgonzola, crumbled",0.5,cup
+230,"fresh parmesan, grated",1.5,cups
+230,tomato paste,2,tablespoons
+230,salt and pepper to taste,1,pinch
+230,"frozen chopped spinach, thaw and squeeze dry",3,10 oz packages
+230,ricotta cheese,1.5,cups
+230,"egg, lightly beaten",3,large
+230,dried basil,1.5,teaspoons
+230,grated nutmeg,0.125,teaspoon
+231,small zucchini,1.5,pounds
+231,"onion, chopped",1,large
+231,"garlic, chopped",1,clove
+231,"butter, divided",6,tablespoons
+231,accent seasoning mix,1,teaspoon
+231,salt,1,teaspoon
+231,"egg, beaten",2,
+231,"cheese, shredded",1,cup
+231,parmesan cheese,0.5,cup
+231,thyme,0.5,teaspoon
+231,pepper,0.125,teaspoon
