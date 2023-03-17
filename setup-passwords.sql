@@ -4,7 +4,7 @@
 -- salt in passwords.
 DELIMITER !
 CREATE FUNCTION make_salt(num_chars INT) 
-RETURNS VARCHAR(20) NOT DETERMINISTIC
+RETURNS VARCHAR(20) DETERMINISTIC
 BEGIN
     DECLARE salt VARCHAR(20) DEFAULT '';
 
@@ -90,26 +90,36 @@ DELIMITER !
 CREATE FUNCTION authenticate(username VARCHAR(20), password VARCHAR(20))
 RETURNS TINYINT DETERMINISTIC
 BEGIN
-  -- TODO
+  DECLARE pw_hashed BINARY(64);
+  SELECT pw_hash INTO pw_hashed FROM users WHERE user_id = username;
+  IF SHA2(password, 256) = pw_hashed THEN RETURN 1; ELSE RETURN 0; 
+  END IF;
 END !
 DELIMITER ;
 
 -- [Problem 1c]
 -- Add at least two users into your user_info table so that when we run this file,
 -- we will have examples users in the database.
-sp_add_user('Newt9', 'password123!');
-sp_add_user_with_name('ChefJohn', '3a+ingShr1mp', 'John', 'Doe');
-sp_add_chef('ChefJohn', 'Professional', 'Sous-chef');
-sp_add_user_with_name('kyuswans', 'ch0co1at3', 'Kyla', 'Yu-Swanson');
-sp_add_user_with_name('AppleMan1', '*mac0S*', 'Steve', 'Jobs');
+CALL sp_add_user('Newt9', 'password123!');
+CALL sp_add_user_with_name('ChefJohn', '3a+ingShr1mp', 'John', 'Doe');
+CALL sp_add_chef('ChefJohn', 'Professional', 'Sous-chef');
+CALL sp_add_user_with_name('kyuswans', 'ch0co1at3', 'Kyla', 'Yu-Swanson');
+CALL sp_add_user_with_name('AppleMan1', '*mac0S*', 'Steve', 'Jobs');
 
 -- [Problem 1d]
 -- Optional: Create a procedure sp_change_password to generate a new salt and change the given
 -- user's password to the given password (after salting and hashing)
 DELIMITER !
-CREATE FUNCTION sp_change_password(username VARCHAR(20), new_password VARCHAR(20))
-RETURNS TINYINT DETERMINISTIC
+CREATE PROCEDURE sp_change_password(username VARCHAR(20), new_password VARCHAR(20))
 BEGIN
-  -- TODO
+  DECLARE user_exists TINYINT;
+  SELECT EXISTS(SELECT user_id FROM users WHERE user_id = username) 
+    INTO user_exists;
+  IF user_exists THEN 
+    UPDATE users SET 
+      pw_hash = SHA2(new_password, 256), 
+      pw_salt = make_salt(8) 
+    WHERE user_id = username;
+  END IF;
 END !
 DELIMITER ;
