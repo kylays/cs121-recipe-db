@@ -22,27 +22,23 @@ BEGIN
 END !
 DELIMITER ;
 
--- Provided (you may modify if you choose)
--- This table holds information for authenticating users based on
--- a password.  Passwords are not stored plaintext so that they
--- cannot be used by people that shouldn't have them.
--- You may extend that table to include an is_admin or role attribute if you 
--- have admin or other roles for users in your application 
--- (e.g. store managers, data managers, etc.)
-CREATE TABLE user_info (
-    -- Usernames are up to 20 characters.
-    username VARCHAR(20) PRIMARY KEY,
+-- NOTE: user_info is defined in setup.sql as users
 
-    -- Salt will be 8 characters all the time, so we can make this 8.
-    salt CHAR(8) NOT NULL,
-
-    -- We use SHA-2 with 256-bit hashes.  MySQL returns the hash
-    -- value as a hexadecimal string, which means that each byte is
-    -- represented as 2 characters.  Thus, 256 / 8 * 2 = 64.
-    -- We can use BINARY or CHAR here; BINARY simply has a different
-    -- definition for comparison/sorting than CHAR.
-    password_hash BINARY(64) NOT NULL
-);
+-- -- This table holds information for authenticating users based on
+-- -- a password.  Passwords are not stored plaintext so that they
+-- -- cannot be used by people that shouldn't have them.
+-- CREATE TABLE user_info (
+--     -- Usernames are up to 20 characters.
+--     user_id           VARCHAR(20) PRIMARY KEY,
+--     -- Salt will be 8 characters all the time, so we can make this 8.
+--     salt              CHAR(8) NOT NULL,
+--     -- We use SHA-2 with 256-bit hashes.  MySQL returns the hash
+--     -- value as a hexadecimal string, which means that each byte is
+--     -- represented as 2 characters.  Thus, 256 / 8 * 2 = 64.
+--     -- We can use BINARY or CHAR here; BINARY simply has a different
+--     -- definition for comparison/sorting than CHAR.
+--     password_hash     BINARY(64) NOT NULL
+-- );
 
 -- [Problem 1a]
 -- Adds a new user to the user_info table, using the specified password (max
@@ -51,7 +47,38 @@ CREATE TABLE user_info (
 DELIMITER !
 CREATE PROCEDURE sp_add_user(new_username VARCHAR(20), password VARCHAR(20))
 BEGIN
-  -- TODO
+  INSERT INTO users(user_id, pw_hash, pw_salt) 
+    VALUES (new_username, SHA2(password, 256), make_salt(8));
+END !
+DELIMITER ;
+
+-- Adds a new user with a first and last name if a user wants to use their name.
+DELIMITER !
+CREATE PROCEDURE sp_add_user_with_name(
+  new_username  VARCHAR(20), 
+  password      VARCHAR(20),
+  first_name    VARCHAR(25),
+  last_name     VARCHAR(25))
+BEGIN
+  INSERT INTO users(user_id, first_name, last_name, pw_hash, pw_salt) 
+    VALUES (
+      new_username, 
+      first_name, 
+      last_name, 
+      SHA2(password, 256), 
+      make_salt(8));
+END !
+DELIMITER ;
+
+-- Makes a user into a chef by adding their information to the chefs table.
+DELIMITER !
+CREATE PROCEDURE sp_add_chef( 
+  username         VARCHAR(20), 
+  exp_level        VARCHAR(100),
+  specialization   VARCHAR(100))
+BEGIN
+  INSERT INTO chefs(user_id, exp_level, specialization) 
+    VALUES (username, exp_level, specialization);
 END !
 DELIMITER ;
 
@@ -70,8 +97,19 @@ DELIMITER ;
 -- [Problem 1c]
 -- Add at least two users into your user_info table so that when we run this file,
 -- we will have examples users in the database.
-
+sp_add_user('Newt9', 'password123!');
+sp_add_user_with_name('ChefJohn', '3a+ingShr1mp', 'John', 'Doe');
+sp_add_chef('ChefJohn', 'Professional', 'Sous-chef');
+sp_add_user_with_name('kyuswans', 'ch0co1at3', 'Kyla', 'Yu-Swanson');
+sp_add_user_with_name('AppleMan1', '*mac0S*', 'Steve', 'Jobs');
 
 -- [Problem 1d]
 -- Optional: Create a procedure sp_change_password to generate a new salt and change the given
 -- user's password to the given password (after salting and hashing)
+DELIMITER !
+CREATE FUNCTION sp_change_password(username VARCHAR(20), new_password VARCHAR(20))
+RETURNS TINYINT DETERMINISTIC
+BEGIN
+  -- TODO
+END !
+DELIMITER ;
