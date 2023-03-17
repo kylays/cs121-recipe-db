@@ -61,13 +61,13 @@ CREATE TABLE favorites (
   user_id           VARCHAR(20) NOT NULL,
   recipe_id         INT,
   PRIMARY KEY (user_id, recipe_id),
-  FOREIGN KEY (user_id) REFERENCES users(user_id),
+  FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
   FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id)
 );
 
 CREATE TABLE ingredient_amounts (
   recipe_id         INT NOT NULL,
-  ingredient_name   VARCHAR(20) NOT NULL,
+  ingredient_name   VARCHAR(50) NOT NULL,
   quantity          NUMERIC(5, 3) NOT NULL,
   -- unit may be null for items such as egg where the egg is a unit
   unit              VARCHAR(50),
@@ -90,7 +90,7 @@ CREATE TABLE ratings (
 
 -- This is an extra feature that may or may not be implemented.
 CREATE TABLE cost (
-  ingredient_name   INT NOT NULL,
+  ingredient_name   VARCHAR(50) NOT NULL,
   quantity          NUMERIC(5, 3) NOT NULL,
   -- in dollars, only allows one price per amount of an ingredient  -------------------------------------------- TODO maybe change???
   price             NUMERIC(5, 2) NOT NULL,

@@ -3,12 +3,7 @@ TODO - instructions on how to use the app
 
 
 
-notes:
-- favorites table added -- make a function that lets users add favorite recipes (procedural sql)
 
-- error handling: (i think this would be in app.py)
-    * username already taken
-    * user does not exist
 
 kyla
 * ER diagram 
@@ -18,18 +13,28 @@ kyla
 * DDL 
   - DONE --- i think? have to look at ER diagram issues again, theres a few tables that I'm unsure about still
   - might need more comments
+  - i feel like ingredients needs its own table with ingredient_name as a PK
 * load-data + csv files 
-  - (missing csv for the extra tables ratings, cost, chefs users, and favorites)
+  - (missing csv for the extra tables ratings, cost, chefs users, and favorites) -- have to self generate this data
   - TODO users, chefs
 * passwords - DONE
 * grant permissions - DONE probably
   - TODO maybe go back and change this after app.py done
 * queries 
-  - TODO THURSDAY after finish load-data
+  - TODO after finish load-data
+* procedural sql: 1 procedure + extra procedure + extra functions + 1 UDF - DONE except testing
+  - udf and procedure ideas in proposal, need to make trigger idea
+  - actually the procedure specified there is a function... its okay i made 2 procedures
+  - favorites table added -- make a function that lets users add favorite recipes (procedural sql)
+    (this will be the extra thing we need bc partners)
+  - TODO test these
 
 riya
-* procedural sql
+* procedural sql: 1 trigger (need idea for this and implementation)
 * app.py
+  - error handling: (i think this would be in app.py)
+    * username already taken
+    * user does not exist
 
 together
 * reflection.pdf (do this weekend)
