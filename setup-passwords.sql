@@ -72,7 +72,7 @@ CREATE PROCEDURE sp_add_chef(
   exp_level        VARCHAR(100),
   specialization   VARCHAR(100))
 BEGIN
-  INSERT INTO chefs(user_id, exp_level, specialization) 
+  INSERT INTO chefs(user_id, exp_level, specialty) 
     VALUES (username, exp_level, specialization);
 END !
 DELIMITER ;

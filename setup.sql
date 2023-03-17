@@ -12,7 +12,6 @@ DROP TABLE IF EXISTS categories;
 DROP TABLE IF EXISTS compound_ingredient;
 DROP TABLE IF EXISTS ingredient_amounts;
 DROP TABLE IF EXISTS recipes;
-DROP TABLE IF EXISTS cost;
 DROP TABLE IF EXISTS users;
 
 CREATE TABLE users (
@@ -38,7 +37,7 @@ CREATE TABLE chefs (
   -- a rating such as amateur, professional, homecook, ect.
   exp_level           VARCHAR(100),
   -- a chef's area of expertise, such as pasty chefs being experts in pastries
-  specialization      VARCHAR(100),
+  specialty           VARCHAR(100),
   PRIMARY KEY (user_id),
   FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
@@ -92,16 +91,6 @@ CREATE TABLE ratings (
   PRIMARY KEY (recipe_id, user_id),
   FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id),
   FOREIGN KEY (user_id) REFERENCES users(user_id)
-);
-
--- This is an extra feature that may or may not be implemented. ------------------------------------------------ TODO maybe delete???
-CREATE TABLE cost (
-  ingredient_name   VARCHAR(50) NOT NULL,
-  quantity          NUMERIC(5, 3) NOT NULL,
-  -- in dollars, only allows one price per amount of an ingredient  -------------------------------------------- TODO maybe change???
-  price             NUMERIC(5, 2) NOT NULL,
-  unit              VARCHAR(50),
-  PRIMARY KEY (ingredient_name, quantity, unit)
 );
 
 -- Indices 

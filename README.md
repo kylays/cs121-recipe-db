@@ -15,7 +15,7 @@ kyla
   - might need more comments
   - i feel like ingredients needs its own table with ingredient_name as a PK
 * load-data + csv files 
-  - (missing csv for the extra tables ratings, cost, chefs users, and favorites) -- have to self generate this data
+  - (missing csv for the extra tables ratings, chefs users, and favorites) -- have to self generate this data
   - TODO users, chefs, other tables maybe
 * passwords - DONE
 * grant permissions - DONE probably
@@ -28,6 +28,8 @@ kyla
   - TODO test these
 * functional dependencies
   - TODO --- need to do this to make sure that the DDL is okay, might need to change ddl and then csv files accordingly
+  - IN PROGRESS, on iPad
+  - tbh i don't understand this well so i will need some help 
 * queries
   - TODO
 
