@@ -1,15 +1,14 @@
 -- CS 121 Final Project
 -- Kyla Yu-Swanson and Riya Shrivastava 
 
-DROP DATABASE IF EXISTS recipedb;
-CREATE DATABASE recipedb;
-USE recipedb;
+-- DROP DATABASE IF EXISTS recipedb;
+-- CREATE DATABASE recipedb;
+-- USE recipedb;
 
 DROP TABLE IF EXISTS ratings;
 DROP TABLE IF EXISTS chefs;
 DROP TABLE IF EXISTS favorites;
 DROP TABLE IF EXISTS categories;
-DROP TABLE IF EXISTS compound_ingredient;
 DROP TABLE IF EXISTS ingredient_amounts;
 DROP TABLE IF EXISTS recipes;
 DROP TABLE IF EXISTS users;
@@ -24,7 +23,7 @@ CREATE TABLE users (
   -- represented as 2 characters.  Thus, 256 / 8 * 2 = 64.
   -- We can use BINARY or CHAR here; BINARY simply has a different
   -- definition for comparison/sorting than CHAR.
-  pw_hash             BINARY(64) NOT NULL,
+  pw_hash             CHAR(64) NOT NULL,
   -- Salt will be 8 characters all the time, so we can make this 8.
   pw_salt             CHAR(8) NOT NULL,
   PRIMARY KEY (user_id)
@@ -72,7 +71,7 @@ CREATE TABLE favorites (
 
 CREATE TABLE ingredient_amounts (
   recipe_id         INT NOT NULL,
-  ingredient_name   VARCHAR(50) NOT NULL,
+  ingredient_name   VARCHAR(100) NOT NULL,
   quantity          NUMERIC(5, 3) NOT NULL,
   -- unit may be null for items such as egg where the egg is a unit
   unit              VARCHAR(50),

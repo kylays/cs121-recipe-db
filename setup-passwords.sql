@@ -100,8 +100,13 @@ DELIMITER ;
 CALL sp_add_user('Newt9', 'password123!');
 CALL sp_add_user_with_name('ChefJohn', '3a+ingShr1mp', 'John', 'Doe');
 CALL sp_add_chef('ChefJohn', 'Professional', 'Sous-chef');
-CALL sp_add_user_with_name('kyuswans', 'ch0co1at3', 'Kyla', 'Yu-Swanson');
 CALL sp_add_user_with_name('AppleMan1', '*mac0S*', 'Steve', 'Jobs');
+
+-- These are provided in the CSV files but are repeated here for clarity 
+-- on the passwords
+-- CALL sp_add_user_with_name('kyuswans', 'ch0c01at3', 'Kyla', 'Yu-Swanson');
+-- CALL sp_add_chef('kyuswans', 'Amateur', 'Soup');
+-- CALL sp_add_user_with_name('ayuswans', 'c**kie00', 'Anya', 'Yu-Swanson');
 
 -- [Problem 1d]
 -- Optional: Create a procedure sp_change_password to generate a new salt and change the given

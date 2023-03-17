@@ -84,17 +84,13 @@ recipe_id,ingredient_name,quantity,unit
 10,cinnamon,1,tsp
 10,melted butter,0.33,cup
 10,sour cream,0.5,pint
-10,sugar,0.33,cup
 10,vanilla,1,tsp
 10,salt,0.125,tsp
 10,cream cheese,8,ounces
 10,cottage cheese,0.5,pint
 10,egg,4,
 10,lemon juice,1,tbsp
-10,vanilla,2,tsp
-10,sugar,0.66,cup
 10,flour,2,tbsp
-10,salt,0.25,tsp
 11,lemon cake mix,1,pkg
 11,egg,4,
 11,lemon instant pudding,1,small pkg
@@ -157,7 +153,6 @@ recipe_id,ingredient_name,quantity,unit
 16,salt,0.25,tsp
 16,poppy seeds,2,tbsp
 16,powdered sugar,0.5,cup
-16,fresh orange juice,2.5,tsp
 17,crushed pineapple,1,2 pound can
 17,yellow cake mix,1,pkg
 17,butter,1,cube
@@ -315,7 +310,6 @@ recipe_id,ingredient_name,quantity,unit
 35,"egg yolk, beaten",1,
 35,vanilla,1,tsp
 35,chocolate chips,1,cup
-35,crunchy peanut butter,0.5,cup
 35,Special K cereal,1.5,cups
 36,margarine,0.25,cup
 36,sifted flour,1,cup
@@ -400,13 +394,7 @@ recipe_id,ingredient_name,quantity,unit
 45,flour,2.5,cups
 45,baking powder,1,tsp.
 45,salt,1,tsp.
-45,flour,1,cup
-45,margarine,0.5,cup
 45,powdered sugar,0.25,cup
-45,egg,2,
-45,sugar,1,cup
-45,baking powder,0.5,tsp
-45,salt,0.25,tsp
 45,lemon peel,2,Tbsp
 45,Lemon juice,2,Tbsp
 46,egg,1,
@@ -437,6 +425,7 @@ recipe_id,ingredient_name,quantity,unit
 48,salt,0.5,tsp
 48,quick-cooking oats,2,cups
 48,"walnuts, chopped",0.5,cup
+48,,1,tsp
 49,semi-sweet chocolate chips,1,6 oz. pkg.
 49,butter or margarine,1,Tbps.
 49,sweetened condensed milk,0.33,cup
@@ -486,7 +475,6 @@ recipe_id,ingredient_name,quantity,unit
 53,cinnamon,1,tsp
 53,clove,1,tsp
 53,nutmeg,1,tsp
-53,pumpkin pie spice,1,small can
 53,flour,4,cups
 54,flour,2.75,cups
 54,cream of tartar,2,tsp
@@ -495,7 +483,6 @@ recipe_id,ingredient_name,quantity,unit
 54,margarine,0.75,cups
 54,sugar,1.5,cups
 54,egg,2,
-54,sugar,2,Tbps
 54,cinnamon,1,tsp
 55,butter or margarine,0.5,cup
 55,sugar,1.5,cups
@@ -548,7 +535,6 @@ recipe_id,ingredient_name,quantity,unit
 61,cinnamon,1,tsp
 61,flour,0.75,cup
 61,butter,0.33,cup
-61,cinnamon,0.5,tsp
 62,cornstarch,2,Tbsp
 62,sugar,1,cup
 62,water,1.25,cups
@@ -583,7 +569,6 @@ recipe_id,ingredient_name,quantity,unit
 65,egg yolks,3,
 65,butter,1,Tbsp
 65,egg whites,3,
-65,sugar,0.25,cup
 66,sliced,5,apples
 66,sugar,1,cup
 66,cinnamon,0.25,tsp
@@ -901,10 +886,6 @@ recipe_id,ingredient_name,quantity,unit
 106,"carrots, chopped",1,cup
 106,"onion, chopped",1,
 106,"celery, chopped",1,cup
-106,garlic powder,1,tsp
-106,oregano,1,tsp
-106,cumin,1,tsp
-106,chili powder,1,Tbsp
 106,tomato sauce,1,cup
 106,instant rice,0.5,cup
 107,hamburger,1,pound
@@ -1220,7 +1201,6 @@ recipe_id,ingredient_name,quantity,unit
 139,"egg, bea10",1,
 139,bread crumbs,1.5,cups
 139,grated parmesan cheese,0.5,cup
-139,oil,3,tbsp
 139,"mozzarella, sliced thinly",0.5,pound
 139,parmesan,0.25,cup
 140,soy sauce,0.5,cup
@@ -1245,16 +1225,12 @@ recipe_id,ingredient_name,quantity,unit
 142,cinnamon,1,tsp
 142,sour cream,0.2,pint
 142,vanilla,1,tsp
-142,sugar,0.33,cup
 142,salt,0.125,tsp
 142,cream cheese,8,ounces
 142,egg,4,
-142,vanilla,2,tsp
 142,flour,2,tbsp
 142,cottage cheese,0.5,pint
 142,lemon juice,1,tbsp
-142,sugar,0.66,cup
-142,salt,0.25,tsp
 143,"green onions, chopped",0.5,cup
 143,can of shrimp,1,small
 143,water chestnuts,1,can
@@ -1785,7 +1761,6 @@ recipe_id,ingredient_name,quantity,unit
 200,"egg yolk, plus enough milk to make 1/2 cup",1,
 200,"cornflakes, crushed",1,cup
 200,"tart apples, sliced",5,cups
-200,sugar,1.5,cups
 200,cinnamon,1,teaspoon
 201,whole prunes,1.5,cups
 201,water,1.5,cups
@@ -1846,15 +1821,11 @@ recipe_id,ingredient_name,quantity,unit
 207,red kidney beans,1,tablespoon
 207,tortillas,10,
 207,salad oil,3,tablespoons
-207,"garlic, chopped",1,clove
 207,"onion, chopped",0.25,cup
 207,flour,2,tablespoons
 207,tomato sauce,2,cans
-207,vinegar,1,tablespoon
 207,beef bouillon,1,cube
 207,boiling water,1,cup
-207,chili powder,2,teaspoon
-207,salt,0.5,teaspoon
 207,pepper,1,
 208,10 inch baked pie shell,1,
 208,butter,3,tablespoons
@@ -1905,7 +1876,6 @@ recipe_id,ingredient_name,quantity,unit
 212,creamed corn,1,can
 212,oil,1,cup
 212,chili powder,1,tablespoon
-212,"bacon, chopped",1,sprinkle
 212,onions,1,
 212,sliced olives,0.25,can
 213,egg,10,
