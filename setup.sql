@@ -16,11 +16,17 @@ DROP TABLE IF EXISTS cost;
 DROP TABLE IF EXISTS users;
 
 CREATE TABLE users (
-  -- a user_id  specified by the user, must be unique
+  -- a user_id specified by the user, must be unique and up to 20 characters
   user_id             VARCHAR(20),
   first_name          VARCHAR(25) DEFAULT 'Anonymous',
   last_name           VARCHAR(25) DEFAULT 'Anonymous',
+  -- We use SHA-2 with 256-bit hashes.  MySQL returns the hash
+  -- value as a hexadecimal string, which means that each byte is
+  -- represented as 2 characters.  Thus, 256 / 8 * 2 = 64.
+  -- We can use BINARY or CHAR here; BINARY simply has a different
+  -- definition for comparison/sorting than CHAR.
   pw_hash             BINARY(64) NOT NULL,
+  -- Salt will be 8 characters all the time, so we can make this 8.
   pw_salt             CHAR(8) NOT NULL,
   PRIMARY KEY (user_id)
 );
@@ -88,7 +94,7 @@ CREATE TABLE ratings (
   FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
 
--- This is an extra feature that may or may not be implemented.
+-- This is an extra feature that may or may not be implemented. ------------------------------------------------ TODO maybe delete???
 CREATE TABLE cost (
   ingredient_name   VARCHAR(50) NOT NULL,
   quantity          NUMERIC(5, 3) NOT NULL,

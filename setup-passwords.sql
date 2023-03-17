@@ -1,5 +1,12 @@
 -- File for Password Management section of Final Project
 
+DROP FUNCTION IF EXISTS make_salt;
+DROP PROCEDURE IF EXISTS sp_add_user;
+DROP PROCEDURE IF EXISTS sp_add_user_with_name;
+DROP PROCEDURE IF EXISTS sp_add_chef;
+DROP FUNCTION IF EXISTS authenticate;
+DROP PROCEDURE IF EXISTS sp_change_password;
+
 -- (Provided) This function generates a specified number of characters for using as a
 -- salt in passwords.
 DELIMITER !
@@ -24,22 +31,6 @@ DELIMITER ;
 
 -- NOTE: user_info is defined in setup.sql as users
 
--- -- This table holds information for authenticating users based on
--- -- a password.  Passwords are not stored plaintext so that they
--- -- cannot be used by people that shouldn't have them.
--- CREATE TABLE user_info (
---     -- Usernames are up to 20 characters.
---     user_id           VARCHAR(20) PRIMARY KEY,
---     -- Salt will be 8 characters all the time, so we can make this 8.
---     salt              CHAR(8) NOT NULL,
---     -- We use SHA-2 with 256-bit hashes.  MySQL returns the hash
---     -- value as a hexadecimal string, which means that each byte is
---     -- represented as 2 characters.  Thus, 256 / 8 * 2 = 64.
---     -- We can use BINARY or CHAR here; BINARY simply has a different
---     -- definition for comparison/sorting than CHAR.
---     password_hash     BINARY(64) NOT NULL
--- );
-
 -- [Problem 1a]
 -- Adds a new user to the user_info table, using the specified password (max
 -- of 20 characters). Salts the password with a newly-generated salt value,
@@ -47,8 +38,10 @@ DELIMITER ;
 DELIMITER !
 CREATE PROCEDURE sp_add_user(new_username VARCHAR(20), password VARCHAR(20))
 BEGIN
+  DECLARE salt CHAR(8);
+  SELECT make_salt(8) INTO salt;
   INSERT INTO users(user_id, pw_hash, pw_salt) 
-    VALUES (new_username, SHA2(password, 256), make_salt(8));
+    VALUES (new_username, SHA2(CONCAT(password, salt), 256), salt);
 END !
 DELIMITER ;
 
@@ -60,13 +53,15 @@ CREATE PROCEDURE sp_add_user_with_name(
   first_name    VARCHAR(25),
   last_name     VARCHAR(25))
 BEGIN
+  DECLARE salt CHAR(8);
+  SELECT make_salt(8) INTO salt;
   INSERT INTO users(user_id, first_name, last_name, pw_hash, pw_salt) 
     VALUES (
       new_username, 
       first_name, 
       last_name, 
-      SHA2(password, 256), 
-      make_salt(8));
+      SHA2(CONCAT(password, salt), 256), 
+      salt);
 END !
 DELIMITER ;
 
@@ -90,9 +85,11 @@ DELIMITER !
 CREATE FUNCTION authenticate(username VARCHAR(20), password VARCHAR(20))
 RETURNS TINYINT DETERMINISTIC
 BEGIN
+  DECLARE salt CHAR(8);
   DECLARE pw_hashed BINARY(64);
+  SELECT pw_salt INTO salt FROM users WHERE user_id = username;
   SELECT pw_hash INTO pw_hashed FROM users WHERE user_id = username;
-  IF SHA2(password, 256) = pw_hashed THEN RETURN 1; ELSE RETURN 0; 
+  IF SHA2(CONCAT(password, salt), 256) = pw_hashed THEN RETURN 1; ELSE RETURN 0; 
   END IF;
 END !
 DELIMITER ;
@@ -113,12 +110,14 @@ DELIMITER !
 CREATE PROCEDURE sp_change_password(username VARCHAR(20), new_password VARCHAR(20))
 BEGIN
   DECLARE user_exists TINYINT;
+  DECLARE salt CHAR(8);
   SELECT EXISTS(SELECT user_id FROM users WHERE user_id = username) 
     INTO user_exists;
+  SELECT make_salt(8) INTO salt;
   IF user_exists THEN 
     UPDATE users SET 
-      pw_hash = SHA2(new_password, 256), 
-      pw_salt = make_salt(8) 
+      pw_hash = SHA2(CONCAT(new_password, salt), 256), 
+      pw_salt = salt 
     WHERE user_id = username;
   END IF;
 END !
