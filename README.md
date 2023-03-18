@@ -1,13 +1,13 @@
 # CS 121 final project: recipedb app
 
-# About
+## About
 This project was created as part of the course CS 121 Relational Databases at 
 Caltech. The project implements a recipe database and a user-interface to 
 allow regular and admin (chef) users to connect to the database.
 * Contributors: Kyla Yu-Swanson and Riya Shrivastava
 * Data source: https://github.com/cweber/cookbook and self-generated
 
-# How to load the database on command-line
+## How to load the database on command-line
 Make sure you have MySQL downloaded and available through your
 device's command-line. First, create a database in mySQL:
 ```
@@ -28,14 +28,16 @@ mysql> source grant-permissions.sql;
 mysql> source queries.sql;
 ```
 
-# Instructions for python program 
+## Instructions for python program 
 TODO Riya instructions on how to use the app
 
-# Unfinished Features
+## Unfinished Features
 * Chefs as creators of recipes
 * Missing data for ingredients being gluten-free, vegan, or vegetarian
 
 ###############################################################################
+
+# Notes For Kyla and Riya
 
 kyla
 * ER diagram - DONE
