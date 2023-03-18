@@ -28,6 +28,13 @@ FIELDS TERMINATED
   BY '"' LINES TERMINATED 
   BY '\n' IGNORE 1 ROWS;
 
+-- Note this has warnings due to the NULL data we did not have time to make
+LOAD DATA LOCAL INFILE 'data/ingredients.csv' INTO TABLE ingredients
+FIELDS TERMINATED 
+  BY ',' ENCLOSED 
+  BY '"' LINES TERMINATED 
+  BY '\n' IGNORE 1 ROWS;
+
 LOAD DATA LOCAL INFILE 'data/ingredient_amounts.csv' INTO TABLE ingredient_amounts
 FIELDS TERMINATED 
   BY ',' ENCLOSED 

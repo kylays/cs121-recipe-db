@@ -425,7 +425,6 @@ recipe_id,ingredient_name,quantity,unit
 48,salt,0.5,tsp
 48,quick-cooking oats,2,cups
 48,"walnuts, chopped",0.5,cup
-48,,1,tsp
 49,semi-sweet chocolate chips,1,6 oz. pkg.
 49,butter or margarine,1,Tbps.
 49,sweetened condensed milk,0.33,cup
@@ -915,7 +914,7 @@ recipe_id,ingredient_name,quantity,unit
 108,"monterey jack or cheddar cheese, shredded",1,cup
 108,"lettuce, shredded",1,cup
 109,peanut or vegetable oil,2,tbsp
-109,"b1d and skinned chicken breasts, cut into 1 inch pieces",2,
+109,"boned and skinned chicken breasts, cut into 1 inch pieces",2,
 109,"red or green pepper, cut in thin strips",0.5,cup
 109,"celery, sliced",0.5,cup
 109,chicken broth,13,ounces
@@ -923,7 +922,7 @@ recipe_id,ingredient_name,quantity,unit
 109,sherry,3,tbsp
 109,soy sauce,1,tbsp
 109,sugar,0.5,tsp
-110,b1d chicken breast cut into 1-inch cubes,1,
+110,boned chicken breast cut into 1-inch cubes,1,
 110,sherry,0.25,cup
 110,soy sauce,1,tbsp
 110,cornstarch,1,tbsp
@@ -981,13 +980,13 @@ recipe_id,ingredient_name,quantity,unit
 115,dry sherry,2,tbsp
 116,sugar,4,tsp
 116,salt,1,tsp
-116,h1y,4,tsp
+116,honey,4,tsp
 116,soy sauce,3,tsp
 116,chicken bouillon,3,tbsp
 116,fresh pork butt or shoulder of pork,2,pounds
 117,dry sherry,1,tbsp
 117,cornstarch,1,tbsp
-117,"b1less chicken, cut in cubes",1,pound
+117,"boneless chicken, cut in cubes",1,pound
 117,vegetable oil,4,tsp
 117,ginger root,0.125,slice
 117,green peppers,2,
@@ -1158,7 +1157,7 @@ recipe_id,ingredient_name,quantity,unit
 134,catsup,1,cup
 134,hot water,1,cup
 134,brown sugar,0.5,cup
-135,pork 10derloin,1,pound
+135,pork tenderloin,1,pound
 135,salt,0.5,tsp
 135,soy sauce,1.5,tsp
 135,cornstarch,1,tbsp
@@ -1198,7 +1197,7 @@ recipe_id,ingredient_name,quantity,unit
 139,tomato sauce,8,ounces
 139,thyme,0.25,tsp
 139,"veal, sliced thinly",1,pound
-139,"egg, bea10",1,
+139,"egg, beaten",1,
 139,bread crumbs,1.5,cups
 139,grated parmesan cheese,0.5,cup
 139,"mozzarella, sliced thinly",0.5,pound
@@ -1236,7 +1235,7 @@ recipe_id,ingredient_name,quantity,unit
 143,water chestnuts,1,can
 143,bean sprouts,1,can
 143,salt and pepper,1,pinch
-143,bea10 egg,6,
+143,beaten egg,6,
 143,butter melted,3,tbsp
 143,flour,3,tbsp
 143,sugar,2,tbsp
@@ -1256,7 +1255,7 @@ recipe_id,ingredient_name,quantity,unit
 144,salt,2,tsp
 144,water,3,tsp
 144,egg roll wrappers,16,
-144,"egg, slightly bea10",1,
+144,"egg, slightly beaten",1,
 145,egg,2,
 145,flour,1,cup
 145,cornstarch,2,tbsp
@@ -1285,14 +1284,14 @@ recipe_id,ingredient_name,quantity,unit
 148,"green onions, diced",3,
 148,pineapple,1,
 148,soy sauce,1,tsp
-149,"pork 10derloin, cut into chunks",1,pound
+149,"pork tenderloin, cut into chunks",1,pound
 149,salt,0.5,tsp
 149,soy sauce,1.5,tsp
 149,cornstarch,1,tbsp
 149,cold water,1,tbsp
 149,chicken coating mix,0.5,cup
 149,ice water,0.5,cup
-149,"egg, bea10",1,
+149,"egg, beaten",1,
 149,oil,1,tbsp
 149,"green pepper, sliced",1,
 149,"onion, chopped",1,medium
@@ -1312,11 +1311,11 @@ recipe_id,ingredient_name,quantity,unit
 150,"onion, minced",1,large
 150,parsley,2,tbsp
 150,salt and pepper,1,pinch
-151,"chicken breast halves, b1d and skinned",4,
+151,"chicken breast halves, boned and skinned",4,
 151,cornstarch,2,tbsp
 151,ground cumin,1,tsp
 151,garlic salt,1,tsp
-151,"egg, slightly bea10",1,
+151,"egg, slightly beaten",1,
 151,water,1,tbsp
 151,cornmeal,0.33,cup
 151,oil,3,tbsp
@@ -1327,23 +1326,23 @@ recipe_id,ingredient_name,quantity,unit
 151,"red pepper, chopped",0.25,cup
 151,cherry tomatoes,5,
 151,parsley sprigs,1,
-152,"egg, slightly bea10",1,
+152,"egg, slightly beaten",1,
 152,milk,0.66,cup
 152,vegetable oil,1,tbsp
 152,"flour, sifted",1,cup
 152,baking powder,1.5,tsp
-152,seas1d salt,2,tsp
+152,seasoned salt,2,tsp
 152,pepper,0.25,tsp
 152,"chicken, cut up",1,small
 152,oil,1,tbsp
 153,catalina french dressing,0.75,cup
 153,soy sauce,0.25,cup
 153,garlic powder,0.5,tsp
-153,"b1less, skinless chicken breast, cubed",1,pound
+153,"boneless, skinless chicken breast, cubed",1,pound
 153,"any frozen mixed vegetable, thawed",16,ounces
 154,"leaf spinach, cut",10,ounces
 154,"butter, melted",3,tbsp
-154,"skinless b1less chicken breasts, cut in 1/2",2,whole
+154,"skinless boneless chicken breasts, cut in 1/2",2,whole
 154,dry bread crumbs,0.33,cup
 154,basil leaves,0.25,tsp
 154,oil,2,tbsp
@@ -1379,7 +1378,7 @@ recipe_id,ingredient_name,quantity,unit
 157,basil,1,tsp
 157,salt,0.5,tsp
 157,pepper,0.25,tsp
-157,"chicken, skinned and b1d",10,pieces
+157,"chicken, skinned and boned",10,pieces
 157,oil,4,tbsp
 157,"garlic, large",1,clove
 157,chicken broth,2.5,cups
@@ -1395,7 +1394,7 @@ recipe_id,ingredient_name,quantity,unit
 158,garlic powder,0.33,tsp
 158,vegetable oil,3,tbsp
 158,"chicken cutlets, pounded to 1/8 inch thick",4,
-158,"egg, lightly bea10",2,
+158,"egg, lightly beaten",2,
 158,onion,1,cup
 158,"apples, cored, pared, thinly sliced",2,
 158,chicken broth,1.5,cups
@@ -1425,7 +1424,7 @@ recipe_id,ingredient_name,quantity,unit
 161,"broccoli, chopped",2,cups
 161,Velveeta,0.5,pound
 161,rice,1,cup
-162,skinless b1less chicken breasts,1,pound
+162,skinless boneless chicken breasts,1,pound
 162,vegetable oil,3,tbsp
 162,"white onions, chopped",0.5,cup
 162,"garlic, minced",2,clove
@@ -1443,7 +1442,7 @@ recipe_id,ingredient_name,quantity,unit
 163,flour,0.25,cup
 163,chili powder,1,tbsp
 163,butter,3,tbsp
-163,"chicken breast halves, b1d and skinned",4,
+163,"chicken breast halves, boned and skinned",4,
 163,freshly ground pepper,1,pinch
 163,jack cheese,0.25,pound
 164,"broiler chicken, cut up",3.5,pound
@@ -1484,7 +1483,7 @@ recipe_id,ingredient_name,quantity,unit
 167,red wine,0.5,cup
 167,Italian seasoning,0.75,tsp
 167,parsley,1,sprig
-168,"chicken breasts, skinned and b1d",2,
+168,"chicken breasts, skinned and boned",2,
 168,"mushrooms, sliced",1,cup
 168,butter,1,tbsp
 168,wine cooler,0.25,cup
@@ -1510,10 +1509,10 @@ recipe_id,ingredient_name,quantity,unit
 170,soy sauce,2,tbsp
 170,Louisiana-style hot sauce,2,tbsp
 170,melted butter or margarine,2,tbsp
-170,h1y,1.5,tsp
+170,honey,1.5,tsp
 170,garlic powder,1,dash
 170,ground ginger,1,dash
-171,turkey breast 10derloins,1,pkg
+171,turkey breast tenderloins,1,pkg
 171,butter,1,tbsp
 171,"onion, sliced into rings",1,medium
 171,cream of chicken soup,1,can
@@ -1547,13 +1546,13 @@ recipe_id,ingredient_name,quantity,unit
 175,"garlic, minced",1,clove
 175,butter or margarine,1,tbsp
 175,"zucchini, shredded",1.5,cups
-175,"egg, slightly bea10",3,
+175,"egg, slightly beaten",3,
 175,"monterey jack cheesed, shredded",1.5,cups
 175,cornmeal,3,tbsps
 175,"cumin seed, crushed",0.25,tsp
 175,"dried oregano, crushed",0.25,tsp
 176,spinach,1,can
-176,"egg, bea10",4,
+176,"egg, beaten",4,
 176,milk,1,cup
 176,"swiss cheese, shredded",1,cup
 176,"white bread, cubed",1,cup
@@ -1593,7 +1592,7 @@ recipe_id,ingredient_name,quantity,unit
 180,paprika,0.25,tsp
 181,"egg, seperated",1,large
 181,ricotta cheese,0.75,cup
-181,"mozzarella or provol1, coarsely grated",0.5,cup
+181,"mozzarella or provolone, coarsely grated",0.5,cup
 181,"fresh parsley, chopped",2,tbsps
 181,pepper,0.25,tsp
 181,eggplant,1,large
@@ -1667,11 +1666,11 @@ recipe_id,ingredient_name,quantity,unit
 191,unsalted butter,6,tbsp
 191,"shallots, chopped",24,
 191,"gorgonzola cheese, crumbled",12,ounces
-191,"cream cheese, sof10ed",27,ounces
+191,"cream cheese, softened",27,ounces
 191,phyllo pastry sheets,24,
 191,"unsalted butter, melted",1.5,cups
 191,dry bread crumbs,18,tbsp
-191,"egg, bea10",2,
+191,"egg, beaten",2,
 191,parsley sprigs,2,
 192,zucchini,3,6 inch
 192,hamburger or sausage,0.5,pound

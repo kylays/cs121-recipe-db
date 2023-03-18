@@ -6,30 +6,18 @@ TODO - instructions on how to use the app
 
 
 kyla
-* ER diagram 
-  - DONE, sort of? I'm kind of unsure about it 
-  - not sure if non chef users have features for er diagram?? do they have a table for preferences? tracking their usage???
-  - also the er diagram has some relationships that i am unsure of (might just delete them if not going to implement them anyways bc extra)
-* DDL 
-  - DONE --- i think? have to look at ER diagram issues again, theres a few tables that I'm unsure about still
-  - might need more comments
-  - i feel like ingredients needs its own table with ingredient_name as a PK
-* load-data + csv files 
-  - (missing csv for the extra tables ratings, chefs users, and favorites) -- have to self generate this data
-  - TODO users, chefs, other tables maybe
+* ER diagram - DONE
+* DDL - DONE --- i think? 
+  - TODO cross check with func deps
+* load-data + csv files - DONE, can add more records if want
 * passwords - DONE
 * grant permissions - DONE probably
   - TODO maybe go back and change this after app.py done
 * procedural sql: 1 procedure + extra procedure + extra functions + 1 UDF - DONE except testing
-  - udf and procedure ideas in proposal, need to make trigger idea
-  - actually the procedure specified there is a function... its okay i made 2 procedures
-  - favorites table added -- make a function that lets users add favorite recipes (procedural sql)
-    (this will be the extra thing we need bc partners)
   - TODO test these
 * functional dependencies
   - TODO --- need to do this to make sure that the DDL is okay, might need to change ddl and then csv files accordingly
   - IN PROGRESS, on iPad
-  - tbh i don't understand this well so i will need some help 
 * queries
   - TODO
 
