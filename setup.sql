@@ -32,13 +32,15 @@ CREATE TABLE chefs (
   specialty           VARCHAR(100),
   PRIMARY KEY (user_id),
   FOREIGN KEY (user_id) REFERENCES users(user_id)
+    ON DELETE CASCADE
 );
 
 -- foods can be divided into categories such as appetizer, entree and 
 -- subcategories such as soup, salad
 CREATE TABLE categories (
   category           VARCHAR(100),
-  -- categories may have several subcategories
+  -- categories may have several subcategories, but each subcategory belongs 
+  -- to only one category
   subcategory        VARCHAR(100),
   PRIMARY KEY (category, subcategory)
 );
@@ -48,7 +50,7 @@ CREATE TABLE recipes (
   -- recipes may have the same name but be different recipes
   recipe_name       VARCHAR(100) NOT NULL,
   -- each recipe belongs to a subcategory, which also belongs to a category
-  subcategory       VARCHAR(100) NOT NULL,
+  subcategory       VARCHAR(100),
   directions        TEXT NOT NULL,
   PRIMARY KEY (recipe_id)
 );
@@ -58,7 +60,8 @@ CREATE TABLE favorites (
   user_id           VARCHAR(20) NOT NULL,
   recipe_id         INT,
   PRIMARY KEY (user_id, recipe_id),
-  FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
+  FOREIGN KEY (user_id) REFERENCES users(user_id) 
+    ON DELETE CASCADE,
   FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id)
 );
 
@@ -84,7 +87,8 @@ CREATE TABLE ingredient_amounts (
   unit              VARCHAR(50),
   PRIMARY KEY (recipe_id, ingredient_name),
   FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id),
-  FOREIGN KEY (ingredient_name) REFERENCES ingredients(ingredient_name)
+  FOREIGN KEY (ingredient_name) REFERENCES ingredients(ingredient_name) 
+    ON UPDATE CASCADE
 );
 
 -- This is an extra feature that may or may not be implemented completely.
@@ -105,4 +109,4 @@ CREATE TABLE ratings (
 );
 
 -- Indices 
-CREATE INDEX recipe_name_idx ON recipes (recipe_name);
+CREATE INDEX recipe_name_idx ON recipes(recipe_name);

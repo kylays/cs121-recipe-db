@@ -21,9 +21,9 @@ CALL delete_favorite('kyuswans', 100);
 SELECT * FROM favorites WHERE user_id = 'kyuswans' AND recipe_id = 100;
 
 -- TESTS FOR num_ingredients (should all return 1) 
-SELECT num_ingredients(1) = 9;
-SELECT num_ingredients(2) = 10;
-SELECT num_ingredients(3) = 10;
+SELECT count_ingredients(1) = 9;
+SELECT count_ingredients(2) = 10;
+SELECT count_ingredients(3) = 10;
 
 -- TESTS FOR random_recipe_with 
 -- should all give different recipe_id numbers

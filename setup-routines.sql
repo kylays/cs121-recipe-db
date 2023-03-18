@@ -35,7 +35,7 @@ DELIMITER ;
 
 -- Returns the number of ingredients in a recipe.
 DELIMITER !
-CREATE FUNCTION num_ingredients(recipe INT)
+CREATE FUNCTION count_ingredients(recipe INT)
 RETURNS INT DETERMINISTIC
 BEGIN
   DECLARE num INT;
