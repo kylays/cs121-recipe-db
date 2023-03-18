@@ -38,11 +38,11 @@ CREATE TABLE chefs (
 -- foods can be divided into categories such as appetizer, entree and 
 -- subcategories such as soup, salad
 CREATE TABLE categories (
+  subcategory        VARCHAR(100),
   category           VARCHAR(100),
   -- categories may have several subcategories, but each subcategory belongs 
   -- to only one category
-  subcategory        VARCHAR(100),
-  PRIMARY KEY (category, subcategory)
+  PRIMARY KEY (subcategory)
 );
 
 CREATE TABLE recipes (
@@ -52,7 +52,8 @@ CREATE TABLE recipes (
   -- each recipe belongs to a subcategory, which also belongs to a category
   subcategory       VARCHAR(100),
   directions        TEXT NOT NULL,
-  PRIMARY KEY (recipe_id)
+  PRIMARY KEY (recipe_id),
+  FOREIGN KEY subcategory REFERENCES categories(subcategory)
 );
 
 -- stores the favorite recipes of users
@@ -108,5 +109,5 @@ CREATE TABLE ratings (
   FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
 
--- Indices 
+-- Index
 CREATE INDEX recipe_name_idx ON recipes(recipe_name);

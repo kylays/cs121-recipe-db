@@ -40,3 +40,9 @@ ORDER BY recipe_name ASC;
 SELECT AVG(stars) AS recipe_1_avg_stars
 FROM ratings 
 WHERE recipe_id = 1;
+
+-- Find recipes that have chocolate in the name. This is an example of a query 
+-- where a user is looking for a recipe for a food they know.
+SELECT recipe_name 
+FROM recipes
+WHERE recipe_name LIKE '%chocolate%';

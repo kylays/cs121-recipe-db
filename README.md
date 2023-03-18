@@ -42,14 +42,14 @@ TODO Riya instructions on how to use the app
 
 ## kyla
 * ER diagram - DONE
-* DDL - DONE mostly
-  - TODO test the index
+* DDL - DONE
 * load-data.sql + csv files - DONE, can add more records if want
 * passwords - DONE
 * grant permissions - DONE probably
   - TODO maybe go back and change this after app.py done
 * procedural sql: 1 procedure + extra procedure + extra functions + 1 UDF - DONE
-* functional dependencies - DONE
+* functional dependencies
+  - TODO i am confused 
 * 5 queries - DONE
 
 ## riya
