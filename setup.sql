@@ -1,6 +1,3 @@
--- CS 121 Final Project
--- Kyla Yu-Swanson and Riya Shrivastava 
-
 DROP TABLE IF EXISTS ratings;
 DROP TABLE IF EXISTS chefs;
 DROP TABLE IF EXISTS favorites;

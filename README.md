@@ -34,6 +34,7 @@ TODO Riya instructions on how to use the app
 ## Unfinished Features
 * Chefs as creators of recipes
 * Missing data for ingredients being gluten-free, vegan, or vegetarian
+- TODO add to this as needed
 
 ###############################################################################
 
@@ -43,12 +44,12 @@ kyla
 * ER diagram - DONE
 * DDL - DONE --- i think? 
   - TODO cross check with func deps
+  - TODO test the index
 * load-data + csv files - DONE, can add more records if want
 * passwords - DONE
 * grant permissions - DONE probably
   - TODO maybe go back and change this after app.py done
-* procedural sql: 1 procedure + extra procedure + extra functions + 1 UDF - DONE except testing
-  - TODO test these
+* procedural sql: 1 procedure + extra procedure + extra functions + 1 UDF - DONE
 * functional dependencies
   - TODO --- need to do this to make sure that the DDL is okay, might need to change ddl and then csv files accordingly
   - IN PROGRESS, on iPad
@@ -57,6 +58,7 @@ kyla
 
 riya
 * procedural sql: 1 trigger (need idea for this and implementation)
+  - add tester queries to routines-tester.sql
 * app.py
   - error handling: (i think this would be in app.py)
     * username already taken
