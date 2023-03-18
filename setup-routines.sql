@@ -1,4 +1,3 @@
-
 -- TODO trigger
 
 -- Returns a random recipe_id

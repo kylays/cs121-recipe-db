@@ -1,6 +1,9 @@
 -- This files has queries that are used to test setup-routines.sql
 -- Assumes that the setup steps in README.md have been followed to load the data
 
+-- TESTER FOR <trigger> (replace with actual name)
+-- TODO
+
 -- TESTS FOR random_recipe
 -- should all give different recipe_id numbers
 SELECT 

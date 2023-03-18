@@ -53,7 +53,7 @@ TODO Riya instructions on how to use the app
 * 5 queries - DONE
 
 ## riya
-* procedural sql: 1 trigger (need idea for this and implementation)
+* procedural sql (setup-routines.sql): 1 trigger (need idea for this and implementation)
   - add tester queries to routines-tester.sql
 * app.py
   - error handling: (i think this would be in app.py)
