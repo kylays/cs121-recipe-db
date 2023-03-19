@@ -45,11 +45,10 @@ TODO Riya instructions on how to use the app
 * DDL - DONE
 * load-data.sql + csv files - DONE, can add more records if want
 * passwords - DONE
-* grant permissions - DONE probably
+* grant permissions - DONE
   - TODO maybe go back and change this after app.py done
 * procedural sql: 1 procedure + extra procedure + extra functions + 1 UDF - DONE
-* functional dependencies
-  - TODO i am confused 
+* functional dependencies - DONE
 * 5 queries - DONE
 
 ## riya
