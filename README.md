@@ -43,17 +43,15 @@ TODO Riya instructions on how to use the app
 ## kyla
 * ER diagram - DONE
 * DDL - DONE
-* load-data.sql + csv files - DONE, can add more records if want
+* load-data.sql + csv files - DONE, can add more records if want to
 * passwords - DONE
 * grant permissions - DONE
   - TODO maybe go back and change this after app.py done
-* procedural sql: 1 procedure + extra procedure + extra functions + 1 UDF - DONE
+* procedural sql: 1 procedure + 1 UDF + 1 trigger - DONE
 * functional dependencies - DONE
 * 5 queries - DONE
 
 ## riya
-* procedural sql (setup-routines.sql): 1 trigger (need idea for this and implementation)
-  - add tester queries to routines-tester.sql
 * app.py
   - error handling: (i think this would be in app.py)
     * username already taken

@@ -1,8 +1,17 @@
 -- This files has queries that are used to test setup-routines.sql
 -- Assumes that the setup steps in README.md have been followed to load the data
 
--- TESTER FOR <trigger> (replace with actual name)
--- TODO
+-- TESTER FOR trg_before_ingredient_amounts_insert
+-- Should verify that the new ingredient 'fake ingredient' is added to 
+-- ingredients when it is added to ingredient_amounts
+SELECT * FROM ingredients WHERE ingredient_name = 'fake ingredient';
+SELECT * FROM ingredient_amounts WHERE recipe_id = 1;
+INSERT INTO ingredient_amounts(recipe_id, ingredient_name, quantity) 
+  VALUES (1, 'fake ingredient', 42);
+SELECT * FROM ingredient_amounts WHERE recipe_id = 1;
+SELECT * FROM ingredients WHERE ingredient_name = 'fake ingredient';
+DELETE FROM ingredient_amounts WHERE ingredient_name = 'fake ingredient';
+DELETE FROM ingredients WHERE ingredient_name = 'fake ingredient';
 
 -- TESTS FOR random_recipe
 -- should all give different recipe_id numbers

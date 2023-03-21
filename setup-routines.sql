@@ -1,4 +1,18 @@
--- TODO trigger
+-- Inserts an ingredient into the ingredients table when the ingredient is 
+-- added as part of a recipe if the ingredient was not already in the database.
+DELIMITER !
+CREATE TRIGGER trg_before_ingredient_amounts_insert BEFORE INSERT
+  ON ingredient_amounts FOR EACH ROW
+BEGIN
+  DECLARE present TINYINT;
+  SELECT 
+    NEW.ingredient_name IN (SELECT ingredient_name FROM ingredients) 
+    INTO present;
+  IF NOT present THEN 
+    INSERT INTO ingredients(ingredient_name) VALUES (NEW.ingredient_name);
+  END IF;
+END !
+DELIMITER ;
 
 -- Returns a random recipe_id
 DELIMITER !
