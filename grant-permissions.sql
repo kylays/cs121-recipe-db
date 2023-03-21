@@ -4,10 +4,10 @@ DROP USER IF EXISTS appclient@localhost;
 CREATE USER 'appadmin'@'localhost' IDENTIFIED BY 'adminpw';
 CREATE USER 'appclient'@'localhost' IDENTIFIED BY 'clientpw';
 
--- admine priviliges 
+-- admine priviliges
 GRANT ALL PRIVILEGES ON recipedb.* TO 'appadmin'@'localhost';
 
 -- client priviliges
-GRANT SELECT ON recipedb.* TO 'appclient'@'localhost';
+GRANT ALL PRIVILEGES ON recipedb.* TO 'appclient'@'localhost';
 
 FLUSH PRIVILEGES;

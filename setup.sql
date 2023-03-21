@@ -22,7 +22,7 @@ CREATE TABLE users (
   PRIMARY KEY (user_id)
 );
 
--- if a user_id is in chefs, then the user is a chef and has chef privilges 
+-- if a user_id is in chefs, then the user is a chef and has chef privilges
 -- to add recipes to the database
 CREATE TABLE chefs (
   user_id             VARCHAR(20) NOT NULL,
@@ -35,12 +35,12 @@ CREATE TABLE chefs (
     ON DELETE CASCADE
 );
 
--- foods can be divided into categories such as appetizer, entree and 
+-- foods can be divided into categories such as appetizer, entree and
 -- subcategories such as soup, salad
 CREATE TABLE categories (
   subcategory        VARCHAR(100),
   category           VARCHAR(100),
-  -- categories may have several subcategories, but each subcategory belongs 
+  -- categories may have several subcategories, but each subcategory belongs
   -- to only one category
   PRIMARY KEY (subcategory)
 );
@@ -61,7 +61,7 @@ CREATE TABLE favorites (
   user_id           VARCHAR(20) NOT NULL,
   recipe_id         INT,
   PRIMARY KEY (user_id, recipe_id),
-  FOREIGN KEY (user_id) REFERENCES users(user_id) 
+  FOREIGN KEY (user_id) REFERENCES users(user_id)
     ON DELETE CASCADE,
   FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id)
 );
@@ -69,9 +69,9 @@ CREATE TABLE favorites (
 CREATE TABLE ingredients (
   -- The name of an ingredient
   ingredient_name   VARCHAR(100) NOT NULL,
-  -- Note that for the following three attributes, much of the source data is 
+  -- Note that for the following three attributes, much of the source data is
   -- NULL since we didn't have time to generate all the data.
-  -- Whether or not the ingredient is gluten-free, vegan, or vegetarian 
+  -- Whether or not the ingredient is gluten-free, vegan, or vegetarian
   -- respectively
   gluten_free       TINYINT DEFAULT 0,
   vegan             TINYINT DEFAULT 0,
@@ -88,7 +88,7 @@ CREATE TABLE ingredient_amounts (
   unit              VARCHAR(50),
   PRIMARY KEY (recipe_id, ingredient_name),
   FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id),
-  FOREIGN KEY (ingredient_name) REFERENCES ingredients(ingredient_name) 
+  FOREIGN KEY (ingredient_name) REFERENCES ingredients(ingredient_name)
     ON UPDATE CASCADE
 );
 
