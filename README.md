@@ -43,11 +43,11 @@ $ python3 app.py
 ```
 
 You will be prompted to login. The following users are registered:
-user ID: Newt9 | password: password123!
+* user ID: Newt9 | password: password123!
 
 The following chefs are registered:
-user ID: ChefJohn | password: 3a+ingShr1mp
-user ID: AppleMan1 | password: *mac0S*
+* user ID: ChefJohn | password: 3a+ingShr1mp
+* user ID: AppleMan1 | password: \*mac0S\*
 
 Note that all chefs are users as well. Chefs are additionally able to add recipes to the database.
 
