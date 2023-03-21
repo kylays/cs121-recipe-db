@@ -6,8 +6,9 @@ CREATE TRIGGER trg_before_ingredient_amounts_insert BEFORE INSERT
 BEGIN
   DECLARE present TINYINT;
   SELECT 
-    NEW.ingredient_name IN (SELECT ingredient_name FROM ingredients) 
-    INTO present;
+  NEW.ingredient_name IN (SELECT ingredient_name FROM ingredients) 
+  INTO present;
+  
   IF NOT present THEN 
     INSERT INTO ingredients(ingredient_name) VALUES (NEW.ingredient_name);
   END IF;
