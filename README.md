@@ -90,7 +90,7 @@ Additional notes:
 
 ## riya
 * app.py - DONE
-- NOTE changed grant permssions to ALL PRIVELEDGES on both clients and users to allow user to add to their favorites. app.py ensures only chafs can add to the recipe database
+- NOTE changed grant permssions to ALL PRIVELEDGES on both clients and users to allow user to add to their favorites. app.py ensures only chefs can add to the recipe database
 * 5 queries.sql
   - DONE
 * relational algebra
